@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈페이지실습 003 - 기초01</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/training0003.css">
+</head>
+     <!--블록레벨 요소-->
+<body>
+    <h1>h1은 큰 타이틀</h1>
+    <h2>h2은 h1보다 작은 타이틀</h2>
+    <h3>h3은 h2보다 작은 타이틀</h3>
+    <h4>h4은 h3보다 작은 타이틀</h4>
+    <h5>h5은 h4보다 작은 타이틀</h5>
+    <h6>h6은 h5보다 작은 타이틀</h6>
+
+    <div>기본박스</div>
+
+    <!--시멘틱태그-->
+    <header>header는 머리부분
+        <h1>header의 타이틀</h1>
+        <nav> nav는 명령하는 부분</nav>
+    </header>
+    <miam>main은 몸통부분
+        <section class= "first">section은 큰 div 박스
+            <h2>main의 section 타이틀
+            </h2>
+            <div class="big">더 생성</div>
+        </section>
+        <section id="또누기">section은 큰 div 박스
+            <h2>main의 section 타이틀
+                <div>div는 기본박스
+                    <h3>
+                    h2보다 작은 타이틀
+                    </h3>
+                    <div class="big">더 생성</div>
+                </div>
+            </h2>
+        </section>
+        <section>section은 큰 div 박스
+            <h2>main의 section 타이틀</h2>
+        </section>
+    </miam>
+    <footer>footer는 꼬리부분</footer>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur inventore consequuntur id fugiat rerum dolorem assumenda<br>br은 문장을 띄움<br> hic temporibus velit harum laboriosam, sequi debitis voluptates ipsa nulla suscipit aut quos dignissimos.</p>
+
+    <ul>메뉴/푸터에 많이 쓰임
+        <li>ul,ol의 자식요소</li>
+        <li>ul,ol의 자식요소</li>
+        <li>ul,ol의 자식요소</li>
+    </ul>
+
+    <ol>메뉴/푸터에 많이 쓰임
+        <li>ul,ol의 자식요소</li>
+        <li>ul,ol의 자식요소</li>
+        <li>ul,ol의 자식요소</li>
+    </ol>
+
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+    
+
+     <!--인라인요소-->
+    <a href="http://naver.com" target="_blank">네이버 이동하라는 태그 (href는 경로/target은 열러는 창 모드/_blank는 새창)</a>
+    <strong>굵게</strong>
+    <em>기울임</em>
+    <i>기울임(잘 안쓰는 태그)</i>
+    <b>굵게(잘 안쓰는 태그)</b>
+    <figure>
+        <img src="./img/logo.png" alt="이미지">
+        <img src="./img/logo.png" alt="이미지">
+        <img src="./img/logo.png" alt="이미지">
+    </figure>
+    <figure>
+        <img src="./img/logo.png" alt="이미지">
+    </figure>
+</body>
+</html>

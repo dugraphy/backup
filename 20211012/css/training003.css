@@ -1,0 +1,16 @@
+
+h1 {color: #333 ; width: 500px; background: #f00; border: 1px solid #333; margin: 100px; padding: 100px;}
+h2 {color: #333 ; width: 500px; background: #f00; border: 1px solid #333; margin: 100px;}
+
+
+
+.first {color: #ff0}
+
+#또누기 {color: #f0f;}
+
+#또누기>h3 {color: #369;}
+#또누기 .big {color: #246; font-size: 50px;}
+
+#또누기 .big:before {content: "하이";}
+#또누기 .big:after {content: "안녕";}
+#또누기 .big:hover {color: #f00;}
