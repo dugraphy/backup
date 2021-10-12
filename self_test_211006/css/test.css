@@ -1,8 +1,0 @@
-h1 {font-size: 100px; color: #f34}
-div {color: #ff09}
-.또누기 {color: #f456}
-#반응형 {color: #00f}
-
-figure {background: #333;}
-figure img {margin-left:0px;transition: 3s;}
-figure.on img {margin-left:1500px;}
