@@ -1,0 +1,24 @@
+*중요도
+-display: none; 안보이게 하다
+-display: block; 나타나다/상자로 만들다
+서로 상호작용
+
+-display: inline; inline으로 되다(좌,우 마진, 패딩만 적용/)
+-display: inline-block; 상자를 가로배열 시킨다 (상자 사이의 간격이 4px존재함)
+
+-display: flex;  가로배열
+
+-display: grid;  가로배열
+
+
+display - 어떻게 배치할 것인가
+none, (안보이게 하다)
+block,
+flex,
+inline-block,
+
+position - 어디에 배치할 것인가 좌표를 가지고 있음 (좌표란 top, bottom, left, right)
+static, (position 속성을 없애라)
+relative, (좌표의 속성을 가진다. *기준점이 된다)
+absolute, [z축으로 떠오른다(겹친다), 쪼그라든다 *기준점을 잃어버린다. body가 기준]
+fixed, [z축으로 떠오른다 단 기준은 뷰포트(화면)이다]
