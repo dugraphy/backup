@@ -1,0 +1,31 @@
+#warp {min-width: 1200px;}
+
+#header {}
+#header h1 {text-align: center; padding: 10px 0;}
+#gnb {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+#gnb>ul {display: flex; justify-content: center; line-height: 80px;}
+#gnb>ul>li>a {display: block; padding: 0 25px;}
+
+#main_visual {position: relative;}
+#main_visual figure img {width: 100%;}
+#main_visual .slogen {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);text-align: center; color: #fff; width: 1200px; padding: 0 15px;}
+
+#main_visual .slogen h2 {font-size: 30px; font-weight: 100; letter-spacing: 0.5em; margin-bottom: 20px;}
+#main_visual .slogen p {font-weight: 100; line-height: 1.6;}
+
+#event {padding: 150px 0;}
+#event h2 {text-align: center; margin-bottom: 30px; font-size:  30px; font-weight: 100;}
+#event .container {display: flex; width: 1200px; margin: 0 auto;}
+#event .container img {flex: 1; padding: 0 15px;}
+#event .container img {width: 100%;}
+
+#tabcontent {padding: 150px 0; background: #f7f7f7;}
+#tabcontent .container {width: 1200px; margin: 0 auto;}
+#tabcontent ul {display: flex; line-height: 40px;}
+#tabcontent ul li {flex: 1; text-align: center; background: #333; color: #fff; cursor: pointer ;}
+#tabcontent ul li.oo {background: #f00;}
+#tabcontent ul li~li {border-left: 1px solid #ddd; }
+#tabcontent .tab>div {display: none;}
+#tabcontent .tab>div.oo {display: block;}
+
+#footer {padding: 80px 0 120px 0; background: #333; color: #f2f2f2; text-align: center;}
