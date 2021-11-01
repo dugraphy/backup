@@ -1,0 +1,54 @@
+#wrap {}
+
+#header {line-height: 200px; position: absolute; top:0; left:0; width: 100%;}
+#header h1 img {width: 170px;}
+#header .container {display: flex; justify-content: space-between; width: 1200px; margin: 0 auto; padding: 0 15px; color: #fff;}
+
+#header nav>ul {display: flex;}
+#header nav>ul>li>a {display: block; padding: 0 30px; font-size: 18px;}
+
+#header .right_icon {font-size: 16px;}
+#header .right_icon>ul {display: flex; margin-left: 30px;}
+#header .right_icon>ul>li>a {display: block; position: relative; padding: 0 15px;}
+#header .right_icon>ul>li~li>a:after {content:"";display: block; width:1px ; height: 12px; background: #888; position: absolute; top: 50%; left: 0 ; transform: translateY(-50%);}
+
+#main_slider figure {height: 800px;}
+#main_slider .main01 {background: url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
+
+#main_slider .container {position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); width: 1200px; padding: 0 15px; color: #fff; text-align: center;}
+#main_slider h2 {font-size: 22px; font-weight: 500; letter-spacing: -0.025em; margin-bottom: 100px;}
+#main_slider .container>a {display: block; width: 170px; border: 1px solid #ddd; border-radius: 25px;margin: 50px auto 50px auto; line-height: 50px;}
+
+#section01 {padding: 150px 0 75px 0;}
+#section01 .section01_title {display:flex;justify-content:space-between;align-items:center;width: 1200px; margin: 0 auto 30px auto; padding: 3px 15px;}
+#section01 .section01_title h2 {position: relative; font-size: 28px; font-weight: 500; letter-spacing: -0.025em; }
+#section01 .my_place {border-bottom:1px solid #333;}
+#section01 .section01_title strong {font-weight: 500;}
+#section01 .container {display: flex; width: 1200px; margin: 0 auto; text-align: center;}
+#section01 .container figure {flex: 1; padding: 0 15px;}
+#section01 .container img {max-width: 100%;}
+#section01 .container p {font-size: 20px; font-weight: 400; margin-top: 15px;}
+
+
+#section02 {padding: 75px 0;}
+#section02 .section02_title {display:flex;justify-content:space-between;align-items:center;width: 1200px; margin: 0 auto 30px auto; padding: 0 15px;}
+#section02 .section02_title h2 {position: relative; font-size: 28px; font-weight: 500; letter-spacing: -0.025em; }
+#section02 .more {border:1px solid #333; border-radius: 19px; padding: 11px 28px;}
+#section02 .more a {font-weight: 500;}
+#section02 .container {display: flex; width: 1200px; margin: 0 auto; text-align: center;}
+#section02 .container figure {flex: 1; padding: 0 15px;}
+#section02 .container img { max-width: 100%;}
+#section02 .container .case {position: relative; overflow: hidden;}
+#section02 .container p {position: absolute; top: 100%;left: 0; font-size: 20px; font-weight: 700; width: 100%; height: 100%; background: rgba(0,0,0,0.7);color: #fff; text-align: center; padding: 90px 0;}
+
+#section02 .container .case:hover p {top: 0;}
+
+#section03 {background: #fee9f0; color: #ff3478; padding: 25px 0;}
+#section03 .width_banner {width: 1200px; margin: 0 auto; padding: 15px 15px;}
+#section03 .width_banner .container {display:flex; justify-content: center;}
+#section03 .width_banner img {width: 50px; height: 50px;}
+#section03 .width_banner p {font-size: 28px; font-weight: 500;}
+#section03 .width_banner i {font-size: 28px;}
+
+
+
