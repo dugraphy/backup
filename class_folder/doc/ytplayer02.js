@@ -21,26 +21,28 @@ $('#visual i.xi-overscan').on('click', function(){
 });
 
 
-$("#mv01").YTPlayer({videoURL:'https://www.youtube.com/embed/Hn1fh7XgXlM',containment:'self',
-autoPlay:true, 
-mute:true, 
-startAt:0, 
-opacity:1,
-showControls:false,
-optimizeDisplay:false,
+$('#mv01').YTPlayer({
+    videoURL:'https://www.youtube.com/embed/_OxGsSB_raI',
+    containment:'self',
+    autoPlay:true, 
+    mute:true, 
+    startAt:0, 
+    opacity:1,
+    showControls:false,
+    playOnlyIfVisible:true,
+    optimizeDisplay:false,
 });
 
-$('#visual i.xi-play').on('click', function(){
-    $("#Video").YTPPlay();
+$('#movie02 i.xi-pause').on('click', function(){
+    $('#mv01').YTPPause();
+});
+$('#movie02 i.xi-play').on('click', function(){
+    $('#mv01').YTPPlay();
+});
+$('#movie02 i.xi-overscan').on('click', function(){
+    $('#mv01').YTPFullscreen();
 });
 
-$('#visual i.xi-pause').on('click', function(){
-    $("#Video").YTPPause();
-});
-
-$('#visual i.xi-overscan').on('click', function(){
-    $("#Video").YTPFullscreen();
-});
 
 
 //------
