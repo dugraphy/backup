@@ -58,8 +58,8 @@ body {color: #333;}
 #product02 .pic {width: 50%;}
 #product02 .descriptiont {display: flex; width: 50%; text-align: center; background: #ddd}
 #product02 .descriptiont .con {margin: auto; padding: 0 30px;}
-#product02 .descriptiont h3 {font-size: 24px; font-weight: 100; margin-bottom: 10px;}
-#product02 .descriptiont h3:after {content: ""; display: block; width: 1px; height: 80px; background: #333; margin: 20px auto;}
+#product02 .descriptiont h3 {font-size: 24px; font-weight: 500; margin-bottom: 10px;}
+#product02 .descriptiont h3:after {content: ""; display: block; width: 1px; height: 40px; background: #333; margin: 20px auto;}
 #product02 .descriptiont p {font-weight: 300; letter-spacing: -0.025em;margin-bottom: 20px; line-height: 24px;}
 #product02 .descriptiont a i {font-size: 20px; padding: 5px; background: #fff; color:#333;  border-radius: 50% 0; vertical-align: middle; margin-left: 10px; transition: 0.4s;}
 #product02 .descriptiont a:hover i {border-radius: 50%;}
@@ -83,7 +83,7 @@ body {color: #333;}
 #product04 h3 {font-size: 24px; font-weight: 500; margin-bottom: 10px;}
 #product04 p {font-weight: 300; letter-spacing: -0.025em; margin-bottom: 30px;}
 
-#product04 .container {display: flex; flex-wrap: wrap; width: 1200px; margin: 0 auto;}
+#product04 .container {display: flex; width: 1200px; margin: 0 auto;}
 #product04 .container .des {flex: 1; padding: 0 15px;}
 #product04 .container .con {flex: 2; overflow: hidden; position: relative;}
 #product04 .container .con figure {padding: 0 15px;}
@@ -98,6 +98,26 @@ body {color: #333;}
 #product04 .des p {font-weight: 300; letter-spacing: -0.025em; margin-bottom: 20px; line-height: 24px;}
 #product04 .des a i {font-size: 20px; padding: 5px; background: #fff; color:#333; border-radius: 50% 0; vertical-align: middle; margin-left: 10px; transition: 0.4s;}
 #product04 .des a:hover i {border-radius: 50%;}
+
+#tab {padding: 100px 0; background: #f7f7f7;}
+#tab .container {width: 1200px; margin: 0 auto; padding: 0 15px;}
+#tab .tab_menu {display: flex; border-bottom: 1px solid #ddd; margin-bottom: 10px;}
+#tab .tab_menu li a {display: block; line-height: 40px; padding: 0 50px; background: #369; color: #fff; text-align: center;}
+#tab .tab_menu li~li {border-left: 1px solid #f7f7f7}
+
+/* #tab .tab_con .tab_slider {display:none;}
+#tab .tab_con .tab_slider:nth-child(1) {display: block;} -- 에러생김*/
+#tab .tab_con {position: relative; height: 300px;}
+#tab .tab_con .tab_slider {position: absolute; top:0; left: 0; width: 100%; visibility: hidden;}
+#tab .tab_con .tab_slider.on {visibility: visible;}
+#tab .tab_con figure {padding: 0 15px;}
+#tab .tab_con figure img {width: 100%;}
+
+
+
+
+
+
 
 #footer {background: #333; color: #f4f4f4; font-weight: 300;}
 #footer .container {display: flex; justify-content: space-between; width: 1200px; margin: 0 auto; line-height: 100px; padding: 0 15px;}
