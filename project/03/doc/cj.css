@@ -27,7 +27,7 @@ body {font-size: 0.8rem;}
 .gnb .main_menu>li:hover .depth02 a:hover:after {width: 100%; transition: 0.5s;}
 
 .right_menu {justify-content: space-between;}
-.right_menu a {padding-left: 1.5rem;}
+.right_menu i {font-size: 1rem; padding-left: 1.5rem;}
 .right_menu .mobile_open {display: none;}
 
 .search {display:none; width: 100%; background: #fff;}
@@ -51,7 +51,7 @@ body {font-size: 0.8rem;}
 
 
 .slogan {text-align: center; padding: 7.5rem 0 0.75rem 0;}
-.slogan h2 {font-size: 2rem; font-weight: 100; margin-bottom: 2rem;}
+.slogan h2 {font-size: 2rem; font-weight: 100; margin-bottom: 1rem; letter-spacing: -0.025rem;}
 .content_slider {position:relative;font-size:3rem;font-weight:700; letter-spacing: 4rem;}
 .content_slider p {color:#333; margin-right: 50px}
 
@@ -71,7 +71,7 @@ body {font-size: 0.8rem;}
 }
 
 .about {padding: 0.75rem 0 3.75rem 0;}
-.about .container {display: flex; width: 60rem; margin: 0 auto;padding: 0 0.75rem;}
+.about .container {display: flex; width: 60rem; margin: 0 auto;}
 .about .container figure {flex: 1;}
 .about .container figure img {max-width: 100%;}
 .about .item01 {position: relative;}
@@ -81,15 +81,15 @@ body {font-size: 0.8rem;}
 .about h3 {font-size: 4rem; font-weight: 900;color: #aaa096; line-height: 12rem; text-align: center; font-family: 'Public Sans', sans-serif;}
 .about h3:after {content: ""; display: block; width: 2.5rem; height: 3px; background: #ef151e; z-index: 4; margin: -3rem auto;}
 .about .brands {position: relative;}
-.about .item01 em {position: absolute; top: 55%; right: 20%; transform: translateX(-20%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
+.about .item01 em {position: absolute; bottom: 40%; right: 20%; transform: translateX(-20%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
 .about .history {position: relative;}
-.about .item02 em {position: absolute; top: 55%; right: 20%; transform: translateX(-20%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
+.about .item02 em {position: absolute; bottom: 40%; right: 20%; transform: translateX(-20%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
 .about p {position: relative; font-size: 0.9rem; padding: 25px 0; line-height: 1.5rem; text-align: center; z-index: 15}
 
 
 .sub_title {padding: 3.75rem 0;}
 .sub_title .title {text-align: center;}
-.sub_title .title h3 {font-size: 2rem; font-weight: 100; letter-spacing: 0.25rem; margin-bottom: 1rem;}
+.sub_title .title h3 {font-size: 2rem; font-weight: 100; letter-spacing: 0.5rem; margin-bottom: 1rem;}
 .sub_title .title p {font-size: 1rem; font-weight: 400; letter-spacing: -0.05rem;}
 
 
@@ -166,7 +166,7 @@ body {font-size: 0.8rem;}
     .main_slider .sbar2 span {display: block; width: 0; height: 100%; background: #f00; transition: 1s;}
     
 
-    .slogan {text-align: center; padding: 3.75rem 0 1.875rem 0;}
+    .slogan {text-align: center; padding: 3.75rem 0 0.75rem 0;}
     .slogan h2 {font-size: 1rem; font-weight: 100; margin-bottom: 1rem;}
     .content_slider {position:relative;font-size:2rem;font-weight:700; letter-spacing: 1rem;}
     .content_slider p {color:#333; margin-right: 50px}
@@ -185,20 +185,20 @@ body {font-size: 0.8rem;}
     100% {transform:translateY(0);opacity:0;}
 }
 
-    .about {padding: 1.875rem 0;}
+    .about {padding: 0.75rem 0 1.875rem 0;}
     .about .container {display: flex; flex-direction: column; width: auto; margin: 0 auto;}
     .about .container figure {flex:1 ;padding: 0 0.75rem;}
     .about .container figure img {max-width: 100%;}
     .about .item01 {position: relative; margin: 0 auto;}
-    .about .title_box01 {position: absolute; top: 0vh; right:0%; transform: translate(0, 100%); width: 60%; height: 40%; background: rgba(255, 255, 255, 0.9); text-align: center; border-radius: 50px 0 0 0; z-index: 14;}
+    .about .title_box01 {position: absolute; bottom: 55%; right:0%; transform: translate(0, 100%); width: 60%; height: 40%; background: rgba(255, 255, 255, 0.9); text-align: center; border-radius: 50px 0 0 0; z-index: 14;}
     .about .item02 {position: relative; margin: 0 auto;}
-    .about .title_box02 {position: absolute; top: 0vh; right:0%; transform: translate(0, 100%); width: 60%; height: 40%; background: rgba(255, 255, 255, 0.9); text-align: center; border-radius: 50px 0 0 0; z-index: 14;}
+    .about .title_box02 {position: absolute; bottom: 55%; right:0%; transform: translate(0, 100%); width: 60%; height: 40%; background: rgba(255, 255, 255, 0.9); text-align: center; border-radius: 50px 0 0 0; z-index: 14;}
     .about h3 {font-size: 3rem; font-weight: 900; color: #aaa096; line-height: 10rem;}
     .about h3:after {content: ""; display: block; width: 2.5rem; height: 3px; background: #ef151e; z-index: 4; margin: -3rem auto;}
     .about .brands {position: relative;}
-    .about .item01 em {position: absolute; top: 45%; right: 18%; transform: translate(0, 45%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
+    .about .item01 em {position: absolute; bottom: 45%; right: 18%; transform: translate(0, 45%); font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
     .about .history {position: relative;}
-    .about .item02 em {position: absolute; top: 45%; right: 18%; transform: translate(0, 45%);font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
+    .about .item02 em {position: absolute; bottom: 45%; right: 18%; transform: translate(0, 45%);font-size: 1rem; font-weight: 500;color: #ef151e; z-index: 15;}
     .about p {position: relative; font-size: 0.8rem; font-weight: 400; line-height: 1.5rem; text-align: center; z-index: 15;}
 
 }
