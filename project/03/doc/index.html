@@ -115,9 +115,11 @@
                     <span>1</span>
                 </div>
                 <div class="search">
-                        <input type="text" placeholder="검색어를 입력해주세요.">
+                    <form>
+                        <input type="text" placeholder="검색어">
                         <button class="search_btn"><i class="xi-search"></i></button>
                         <button><i class="xi-close"></i></button>
+                    </form>
                 </div>
             </div>
         </header>
@@ -352,75 +354,79 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="container">
-                <div class="left">
-                    <div class="lnb">
-                        <dl>
-                            <dt><a href="#!">개인정보처리방침</a></dt>
-                            <dd><a href="#!">지속가능경영</a></dd>
-                            <dd><a href="#!">이용약관</a></dd>
-                            <dd><a href="#!">법적고지</a></dd>
-                            <dd><a href="#!">오시는길</a></dd>
-                        </dl>
+            <div class="top_footer">
+                <div class="container">
+                    <div class="left">
+                        <div class="lnb">
+                            <dl>
+                                <dt><a href="#!">개인정보처리방침</a></dt>
+                                <dd><a href="#!">지속가능경영</a></dd>
+                                <dd><a href="#!">이용약관</a></dd>
+                                <dd><a href="#!">법적고지</a></dd>
+                                <dd><a href="#!">오시는길</a></dd>
+                            </dl>
+                        </div>
+                        <ul>
+                            <li><a href="#!">영상정보처리기기 운용관리방침</a></li>
+                            <li><a href="#!">인재채용</a></li>
+                            <li><a href="#!">상생경영</a></li>
+                            <li><a href="#!">고객행복센터</a></li>
+                            <li><a href="#!">대리점모집</a></li>
+                            <li><a href="#!">사이트맵</a></li>
+                            <li><a href="#!">CJ도너스캠프</a></li>
+                            <li><a href="#!">CJ THE MARKET</a></li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li><a href="#!">영상정보처리기기 운용관리방침</a></li>
-                        <li><a href="#!">인재채용</a></li>
-                        <li><a href="#!">상생경영</a></li>
-                        <li><a href="#!">고객행복센터</a></li>
-                        <li><a href="#!">대리점모집</a></li>
-                        <li><a href="#!">사이트맵</a></li>
-                        <li><a href="#!">CJ도너스캠프</a></li>
-                        <li><a href="#!">CJ THE MARKET</a></li>
-                    </ul>
+                    <div class="right">
+                        <form id="link">
+                            <select>
+                                <option class="family_site" value="">FAMILY SITE</option>
+                                <optgroup label="CJ그룹">
+                                   <option value="https://www.cj.net/">- CJ주식회사</option>
+                                </optgroup>
+                                <optgroup label="식품 & 식품서비스">
+                                <option value="https://www.cj.co.kr/kr/index">- CJ제일제당</option>
+                                <option value="https://www.cjfoodville.co.kr/main.asp">- CJ푸드빌</option>
+                                <option value="http://www.cjfreshway.com/index.jsp">- CJ프레시웨이</option>
+                                </optgroup>
+                                <optgroup label="생명공학">
+                                <option value="https://www.cj.co.kr/kr/about/business/bio">- CJ제일제당 BIO사업부문</option>
+                                <option value="https://www.cj.co.kr/kr/about/business/bio">- CJ Feed&Care</option>
+                                </optgroup>
+                                <optgroup label="물류 & 신유통">
+                                <option value="https://www.cjlogistics.com/ko/main">- CJ대한통운</option>
+                                <option value="http://www.cjenc.co.kr/kr/Default.asp">- CJ대한통운 건설부문</option>
+                                <option value="https://www.oliveyoung.co.kr/store/company/brandStory.do">- CJ올리브영</option>
+                                <option value="https://www.cjolivenetworks.co.kr/">- CJ올리브영네트웍스</option>
+                                <option value="https://company.cjonstyle.com/index.asp">- CJ ENM 커머스부문</option>
+                                </optgroup>
+                                <optgroup label="엔터테인먼트 & 미디어">
+                                <option value="https://www.cjem.net/main/">- CJ ENM 엔터테인먼트부문</option>
+                                <option value="http://corp.cgv.co.kr/">- CJ CGV</option>
+                                </optgroup>
+                           </select>
+                        </form>
+                        <div class="sns">
+                            <a href="#!"><i class="xi-youtube-play"></i></a>
+                            <a href="#!"><i class="xi-instagram"></i></a>
+                            <a href="#!"><i class="xi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_footer">
+                <div class="container">
                     <div class="company">
                         <strong>씨제이제일제당(주)</strong>
                         <span>서울특별시 중구 동호로 330 CJ 제일제당센터 (우)04560</span>
                         <em>대표자 손경식, 최은석</em>
-                        <address>
-                            &copy;2019 CJ CHEILJEDANG CORP. ALL RIGHTS RESERVED
-                        </address>
-                    </div>
-                </div>
-                <div class="right">
-                    <form id="link">
-                        <select>
-                            <option value="" hidden>FAMILY SITE</option>
-                            <optgroup label="CJ그룹">
-                               <option value="https://www.cj.net/">- CJ주식회사</option>
-                            </optgroup>
-                            <optgroup label="식품 & 식품서비스">
-                            <option value="https://www.cj.co.kr/kr/index">- CJ제일제당</option>
-                            <option value="https://www.cjfoodville.co.kr/main.asp">- CJ푸드빌</option>
-                            <option value="http://www.cjfreshway.com/index.jsp">- CJ프레시웨이</option>
-                            </optgroup>
-                            <optgroup label="생명공학">
-                            <option value="https://www.cj.co.kr/kr/about/business/bio">- CJ제일제당 BIO사업부문</option>
-                            <option value="https://www.cj.co.kr/kr/about/business/bio">- CJ Feed&Care</option>
-                            </optgroup>
-                            <optgroup label="물류 & 신유통">
-                            <option value="https://www.cjlogistics.com/ko/main">- CJ대한통운</option>
-                            <option value="http://www.cjenc.co.kr/kr/Default.asp">- CJ대한통운 건설부문</option>
-                            <option value="https://www.oliveyoung.co.kr/store/company/brandStory.do">- CJ올리브영</option>
-                            <option value="https://www.cjolivenetworks.co.kr/">- CJ올리브영네트웍스</option>
-                            <option value="https://company.cjonstyle.com/index.asp">- CJ ENM 커머스부문</option>
-                            </optgroup>
-                            <optgroup label="엔터테인먼트 & 미디어">
-                            <option value="https://www.cjem.net/main/">- CJ ENM 엔터테인먼트부문</option>
-                            <option value="http://corp.cgv.co.kr/">- CJ CGV</option>
-                            </optgroup>
-                       </select>
-                    </form>
-                    <div class="sns">
-                        <a href="#!"><i class="xi-youtube-play"></i></a>
-                        <a href="#!"><i class="xi-instagram"></i></a>
-                        <a href="#!"><i class="xi-facebook"></i></a>
                     </div>
                     <div class="logo">
                         <img src="../lib/base/cjlogo01.png" alt="">
                     </div>
                 </div>
             </div>
+            <address>©2019 CJ CHEILJEDANG CORP. ALL RIGHTS RESERVED</address>
         </footer>
     </div>
 </body>

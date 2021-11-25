@@ -77,6 +77,8 @@ $('.mobile_open').on('click', function(){
   }
 });
 
+
+
 $(window).on('resize', function(){
   $('.depth02').removeAttr('style');
 });
