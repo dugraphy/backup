@@ -5,15 +5,37 @@
     --b--c #5bbfdd
 )
 */
-
 .wrap {min-width: 1900px;}
-.header {display: flex; justify-content: space-between; position: fixed; top: 0; left: 0; width: 100%; min-width: 1900px; padding: 0 2rem; line-height: 7rem; color: #f2f2f2; transition: 0.5s; z-index: 999;}
+
+@media screen and (max-width: 768px) {
+    .wrap {min-width: auto;}
+}
+
+
+.header {display: flex; justify-content: space-between; position: fixed; top: 0; left: 0; width: 100%; min-width: 1900px; padding: 0 2rem; line-height: 7rem; color: #f2f2f2; transition: 0.5s; z-index: 1000;}
 .header.on {background: rgba(0, 0, 0, 0.8);}
 .header h1 {width: 11.5rem}
-.header nav>ul {display: flex; font-size: 0.8rem; font-weight: 400;}
+.header nav>ul {display: flex; font-size: 0.8rem; font-weight: 500;}
 .header nav>ul a {display: block; padding: 0 0.75rem}
-.header .call a {font-size: 0.8rem; font-weight: 400;}
+.header .call a {font-size: 0.8rem; font-weight: 700;}
 .header .call i {font-size: 0.8rem; padding: 0.2rem; margin-right: 1rem;}
+
+@media screen and (max-width: 768px) {
+    .header {display: flex; justify-content: space-between; position: fixed; top: 0; left: 0; width: 100%; min-width: 1900px; padding: 0 2rem; line-height: 7rem; color: #f2f2f2; transition: 0.5s; z-index:9999;}
+    .header.on {background: transparent}
+
+    .header h1 {width: 11.5rem;z-index: 100000;}
+    .header nav {position: fixed; top: 0; left: -100%; width: calc(100% - 4.5rem); height: 100vh;background: #d8534f; z-index: 9998; padding:5rem 1rem 0 1rem; transition: 0.4s;}
+    .header nav.on {left: 0;}
+    .header nav>ul {display: flex; flex-flow:column wrap;font-size: 0.8rem; font-weight: 300;line-height: 2rem;}
+    .header nav>ul li~li {border-top:1px solid #fff}
+    .header nav>ul>li a {display: block; padding: 0 0.75rem}
+    .header .call {opacity: 0; position: fixed; bottom: 5rem; left: 1.5rem; z-index: 100000;}
+    .header .call.on {opacity: 1; transition: 0.4s 0.4s;}
+    .header .call a {font-size: 1.5rem; font-weight: 400;}
+    .header .call i {font-size: 0.8rem; padding: 0.2rem; margin-right: 1rem;}
+}
+
 
 .visual {position: relative;}
 .visual:after {content: ""; display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left:0;}
@@ -23,7 +45,7 @@
 .visual .item02 {background: url(./img/bg_intro02.jpg) no-repeat center center/cover;}
 .visual .item03 {background: url(./img/bg_intro03.jpg) no-repeat center center/cover;}
 
-.visual .slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; text-align: center; z-index: 998; width: 100%;}
+.visual .slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; text-align: center; z-index: 998; width: 60rem;}
 .visual .slogan strong {display: block; font-size: 1rem; margin-bottom: 1rem;}
 .visual .slogan h2 {font-size: 4rem; margin-bottom: 1rem;font-family: 'Fugaz One', 'Noto Sans KR';}
 .visual .slogan p {font-weight: 300; line-height: 1.618;}
@@ -35,11 +57,20 @@
 .visual .slick-dots li:after {content: ""; display: block; width: 0; height: 100% ;background: #f00;}
 .visual .slick-dots li.slick-active:after {width: 100%; transition: 3s;}
 
+@media screen and (max-width: 768px) {
+    .visual .slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; text-align: center; width: 100%; padding: 0 0.75rem; z-index: 998;}
+    .visual .slogan strong {display: block; font-size: 5vw; margin-bottom: 1rem;}
+    .visual .slogan h2 {font-size: 9.6618vw; margin-bottom: 1rem;font-family: 'Fugaz One', 'Noto Sans KR';}
+    .visual .slogan p {font-size:3vw; font-weight: 300; line-height: 1.618;}
+    
+
+}
 
 .content {padding: 5rem 0; text-align: center;}
 .content h2 {font-size: 0.5rem; margin-bottom: 0.5rem;}
 .content p {font-size: 2rem; font-family: 'Fugaz One', 'Noto Sans KR'; color: burlywood; margin-bottom: 1.5rem;}
 .content .container {display: flex; flex-flow: row wrap; width: 60rem; margin: 0 auto;}
+
 .content figure {width: 50%; padding: 0 0.75rem; position: relative;}
 .content figure img {max-width: 100%; transition: 0.4s;}
 .content figure .case {display: block; margin-bottom: 0.5rem; overflow: hidden;}
@@ -49,15 +80,52 @@
 .content figure .case:hover img {transform: scale(1.2);}
 .content figure .case:hover::before {width: 13rem;}
 
+@media screen and (max-width: 768px) {
+    .content {padding: 5rem 0; text-align: center;}
+    .content h2 {font-size: 0.5rem; margin-bottom: 0.5rem;}
+    .content p {font-size: 2rem; font-family: 'Fugaz One', 'Noto Sans KR'; color: burlywood; margin-bottom: 1.5rem;}
+    .content .container {display: flex; flex-flow: row wrap; width: auto; margin: 0 auto;}
+
+    .content figure {width: 100%; padding: 0 0.75rem; position: relative;}
+    .content figure img {max-width: 100%; transition: 0.4s;}
+    .content figure .case {display: block; margin-bottom: 0.5rem; overflow: hidden;}
+    .content figure h3 {font-size: 4vw; margin-bottom: 0.5rem;}
+    .content figure strong {display: block; font-size: 3vw; font-weight: 500; margin-bottom: 2rem;}
+    .content figure .case:before {content: attr(data-prnum);display: block; width: 9rem; height: 2rem; background: #d8534f; color: #fff; padding-left: 1rem; line-height: 2rem; position: absolute; top: 0.75rem; left: 0; z-index: 998; transition: 0.5s 0.4s}
+    .content figure .case:hover img {transform: scale(1.2);}
+    .content figure .case:hover::before {width: 13rem;}
+}
+
 .customer {padding: 5rem 0 30rem 0; background: url(./img/bg_main2.jpg) no-repeat center bottom/cover; text-align: center; color: #f2f2f2}
 .customer h2 {font-size: 1.4rem; font-weight: 500; margin-bottom: 2rem; line-height: 1.4;}
 .customer .container {display: flex; width: 60rem; margin: 0 auto;}
-.customer .container li {flex: 1; padding: 0 0.75rem}
+.customer .container li {flex: 1; padding: 0 0.75rem;}
 .customer .container li a {display: block; background: rgba(0, 0, 0, 0.4); padding: 4rem 0.75rem; border-radius: 1rem;}
-
 .customer h3 {font-size: 1.3rem; font-weight: 500; margin-bottom: 1rem; line-height: 1.4;}
 .customer p {font-size: 0.7rem; font-weight: 300; line-height: 1.4;}
+
+
+@media screen and (max-width: 768px) {
+    .customer {padding: 5rem 0 5rem 0; background: url(./img/bg_main2.jpg) no-repeat center bottom/cover; text-align: center; color: #f2f2f2}
+    .customer h2 {font-size: 5vw; font-weight: 500; margin-bottom: 2rem; line-height: 1.4;}
+    .customer .container {display: flex; flex-flow: column wrap; width: auto; margin: 0 auto;}
+    .customer .container li {flex: 1; padding: 0 0.75rem; margin-bottom: 2rem;}
+    .customer .container li a {display: block; background: rgba(0, 0, 0, 0.4); padding: 4rem 0.75rem; border-radius: 1rem;}
+    .customer h3 {font-size: 1.3rem; font-weight: 500; margin-bottom: 1rem; line-height: 1.4;}
+    .customer p {font-size: 0.7rem; font-weight: 300; line-height: 1.4;}
+}
 
 .footer {padding: 3rem 0; text-align: center; font-size: 0.65rem; font-weight: 300; color: #444}
 .footer ul {display: flex; justify-content: center; margin-bottom: 0.5rem;}
 .footer ul li~li:before {content: ""; display: inline-block; width: 1px; height: 0.5rem; background: #ddd;margin: 0 0.75rem}
+
+.mopen {display: none;}
+
+@media screen and (max-width: 768px) {
+    .footer {padding: 3rem 0.5rem; text-align: center; font-size: 0.65rem; font-weight: 300; background: #333; color: #fff}
+    .footer ul {display: block; justify-content: center; margin-bottom: 0.5rem;}
+    .footer ul li {display: inline-block; margin: 0 0.25rem;}
+    .footer ul li~li:before {content: ""; display: none; width: 1px; height: 0.5rem; background: #ddd;margin: 0 0.75rem}
+
+    .mopen {display: block; font-size: 1.5rem; position: fixed; top: 1.5rem; right: 1.5rem; color: #fff; padding: 0.25rem; background: rgba(0, 0, 0, 0.5);z-index: 10000;}
+}
