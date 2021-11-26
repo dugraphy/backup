@@ -325,7 +325,7 @@ body {font-size: 0.8rem;}
     .footer .top_footer .container {display: flex; flex-direction: column; justify-content: space-between; margin: 0;}
     .footer .top_footer .container .lnb dl {display: flex; justify-content: space-between; align-items: center;}
     .footer .top_footer .container .lnb dl>dt , .footer .lnb dl>dd { line-height: 0;}
-    .footer .top_footer .container .lnb dl>dt>a , .footer .lnb dl>dd>a {font-size: 1vw;}
+    .footer .top_footer .container .lnb dl>dt>a , .footer .lnb dl>dd>a {font-size: 0.4rem;}
     .footer .top_footer .container .lnb dl>dt:after, .footer .lnb dl>dd~dd:before {content:""; display:inline-block; margin:0 3vw; width:1px ;height: 0.6rem; background: #ddd;}
     .footer .top_footer .container .lnb dl>dt {color: #f00;}
     .footer .top_footer .container ul {display: none;}
