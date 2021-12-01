@@ -21,6 +21,11 @@ $('.gnb>li>a').on('click', function(e){
       $('.mypage').toggleClass('on');
   });
 
+  $('.top_nav .xi-bars').on('click', function(){
+   $(this).toggleClass('on');
+   $('.pc_bottom_menu').toggleClass('on');
+ });
+
     
     $(window).on('resize',function(){
       $('.sub_menu').removeAttr('style')
