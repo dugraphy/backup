@@ -76,7 +76,7 @@ body {font-size: 0.8rem;}
 .main_slider .text {display: block; position: relative; text-align: center; padding-top: 40%;}
 .main_slider .text h2 {font-size: 1.5rem; font-weight: 500 ;color:#fff;line-height: 2;}
 .main_slider .text p {font-size: 0.8rem; color:#fff; line-height: 1;}
-.main_slider .text p:after {content: ""; display: block; position: absolute; top: 60%; left: 50%; transform: translateY(85%); width: 1px; height: 40px; background: #fff;}
+.main_slider .text p:after {content: ""; display: block; position: absolute; top: 60%; left: 50%; transform: translateY(85%); width: 1px; height: 30px; background: #fff;}
 .main_slider .text strong {font-size: 1.5rem; font-weight: 100; letter-spacing: 0.2rem; line-height: 5; color:#fff}
 .main_slider .text span {font-size: 0.75rem;color:#fff}
 
@@ -91,31 +91,55 @@ body {font-size: 0.8rem;}
 .main_slider .text .btn03:hover span {width: 100px;}
 
 
-.main_slider .circle {display: block; position: absolute; top: 50%; left: 70%; transform: translate(-50%, -50%); width: 34vw; height: 34vw; text-indent: -9999px; border-radius: 50%; box-shadow: 15px 30px 50px -25px black; overflow: hidden;}
-.main_slider .circle figure {height: 34vw;}
+.main_slider .circle {display: block; position: absolute; top: 50%; left: 70%; transform: translate(-50%, -50%); width: 25vw; height: 25vw; text-indent: -9999px; border-radius: 50%; box-shadow: 25px 25px 40px -15px #111; overflow: hidden;}
+.main_slider .circle figure {height: 25vw;}
 .main_slider .circle .slider_img01 {background: url(../img/circle_img01.jpg) no-repeat center center/cover;}
 .main_slider .circle .slider_img02 {background: url(../img/circle_img02.jpg) no-repeat center center/cover;}
 .main_slider .circle .slider_img03 {background: url(../img/circle_img03.jpg) no-repeat center center/cover;}
 
 
 
-#product01 {padding: 5rem 0; text-align: center;}
-#product01 h2 {font-size: 1.2rem; font-weight: 500; margin-bottom: 1.5rem;}
-#product01 .container {display: flex; width: 60rem; margin: 0 auto;}
-#product01 img {max-width: 100%;}
-#product01 figure {flex: 1; padding: 0 0.75rem;}
-#product01 figure strong {display: block; margin: 0.5rem 0;}
-#product01 figure span {display: block; margin: 0.5rem 0;}
-#product01 figure span.price {color: #ff3478;}
+.season_product01 {padding: 5rem 0 5rem 0; text-align: center;}
+.season_product01 .container {display: flex; justify-content: space-between; align-items: center;}
+.season_product01 h2 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1.5rem;}
+.season_product01 .pd_slider {width: 60rem; margin: 0 auto;}
+.season_product01 img {max-width: 100%;}
+.season_product01 figure {padding: 0 0.75rem;}
+.season_product01 figure strong {display: block; margin: 0.5rem 0;}
+.season_product01 figure span {display: block; margin: 0.5rem 0;}
+.season_product01 figure span.price {color: #ff3478;}
 
-#product01 .case {overflow: hidden;}
-#product01 figure img {transition: 0.4s;}
-#product01 figure:hover img {transform: scale(1.2);}
-
-
-
+.season_product01 .case {overflow: hidden;}
+.season_product01 figure img {transition: 0.4s;}
+.season_product01 figure:hover img {transform: scale(1.2);}
 
 
+.season_product01 .slick-dots {position: relative; text-align: center;}
+.season_product01 .slick-dots li {display: inline-block; width: 10px; height: 10px; background: #ddd; border-radius: 50%; margin: 0 0.25rem;}
+.season_product01 .slick-dots li button {display: none;}
+.season_product01 .slick-dots li.slick-active {background: #5e5048;}
+
+.slogan {background: #f9f9f9;padding: 2.5rem 0; text-align: center;}
+.slogan span {font-size: 1.5rem;font-weight: 100; letter-spacing: 0.2rem;line-height: 2;}
+.slogan h2 {font-size: 2rem;font-weight: 500; letter-spacing: 0.2rem; margin-bottom: 2rem; color: #5e5048}
+.slogan p {font-size: 0.8rem;font-weight: 300; letter-spacing: -0.025rem; line-height: 1.5;}
+
+
+.tab {padding: 5rem 0;}
+.tab h2 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1.5rem; text-align: center;}
+.tab .container {justify-content: space-between;}
+.tab .tab_menu li a {display: block; line-height: 40px; padding: 0 20px; margin: 0.35rem 0; border: 1px solid #333; color: #333; text-align: center;}
+.tab .tab_menu li a:before {content: "#";}
+.tab .tab_menu li {text-align: center; line-height: 40px;}
+.tab .tab_menu li.on {background: #5e5048;}
+.tab .tab_menu li.on a {color: #fff;}
+
+
+.tab .tab_con {position: relative; width: 50rem; margin-right: 0.75rem;}
+.tab .tab_con .tab_slider {position: absolute; top:0; left: 0; width: 100%; visibility: hidden;}
+.tab .tab_con .tab_slider.on {visibility: visible;}
+.tab .tab_con figure {padding: 0 0.75rem;}
+.tab .tab_con figure img {width: 100%;}
 
 
 
@@ -132,8 +156,8 @@ body {font-size: 0.8rem;}
 
 
     .warp {min-width: auto; position: relative;}
-    .header .top_menu {line-height: 0.5rem; position: relative; background: #fff;}
-    .header .container {justify-content: space-between;}
+    .header .top_menu {line-height: 5rem; position: relative; background: #fff;}
+    .header .container {justify-content: space-between; height: 5.5rem;}
 
     .header h1 img {width: 5rem;}
 
@@ -152,7 +176,7 @@ body {font-size: 0.8rem;}
     .mopen {display: block; position: absolute; top: 0.5rem; right: 0.75rem; z-index: 1000;}
     .mopen i {font-size: 0.7rem;}
 
-    .bottom_menu {position: fixed; top: 0; right: -100%; background: #fff; border: 1px solid #ddd; width:calc(100% - 20%); height: 100vh; transition: 0.5s; z-index: 998;}
+    .bottom_menu {position: fixed; top: 0; right: -100%; background: #fff; border-left: 1px solid #ddd; width:calc(100% - 20%); height: 100vh; transition: 0.5s; z-index: 998;}
     .bottom_menu.on {right: 0;}
     .bottom_menu .gnb {display: flex; flex-direction:column;}
     .bottom_menu .gnb>li {text-align: center;position: relative; top:2.5rem;}
@@ -196,32 +220,58 @@ body {font-size: 0.8rem;}
     .main_slider .text .btn03 span {display: none; width: 0; height: 16px; white-space: nowrap;overflow: hidden; transition: 0.5s;}
     
     
-    .main_slider .circle {display: block; position: absolute; top: 10vh; left: 50vw; transform: translate(-50%, 0); width: 80vw; height: 80vw; text-indent: -9999px; border-radius: 50%; box-shadow: 15px 30px 50px -25px black; overflow: hidden;}
+    .main_slider .circle {display: block; position: absolute; top: 10vh; left: 50vw; transform: translate(-50%, 0); width: 80vw; height: 80vw; text-indent: -9999px; border-radius: 50%; box-shadow: 25px 25px 40px -15px #111; overflow: hidden;}
     .main_slider .circle figure {height: 80vw;}
     .main_slider .circle .slider_img01 {background: url(../img/circle_img01.jpg) no-repeat center center/cover;}
     .main_slider .circle .slider_img02 {background: url(../img/circle_img02.jpg) no-repeat center center/cover;}
     .main_slider .circle .slider_img03 {background: url(../img/circle_img03.jpg) no-repeat center center/cover;}
     
 
-    #product01 {padding: 100px 0; text-align: center;}
-    #product01 h2 {font-size: 24px; font-weight: 500; margin-bottom: 30px;}
-    #product01 .container {display: flex; width: 1200px; margin: 0 auto;}
-    #product01 img {max-width: 100%;}
-    #product01 figure {flex: 1; padding: 0 15px;}
-    #product01 figure strong {display: block; margin: 10px 0;}
-    #product01 figure span {display: block; margin: 10px 0;}
-    #product01 figure span.price {color: #ff3478;}
+    .season_product01 {padding: 5rem 0 2.5rem 0; text-align: center;}
+    .season_product01 .container {display: flex; justify-content: space-between; align-items: center;}
+    .season_product01 h2 {font-size: 6vw; font-weight: 100; margin-bottom: 1.5rem;}
+    .season_product01 p {font-size: 2vw; font-weight: 500; margin-bottom: 1.5rem;}
+    .season_product01 .pd_slider {width: 100%; margin: 0 auto;}
+    .season_product01 img {max-width: 100%;}
+    .season_product01 figure {padding: 0 0.75rem;}
+    .season_product01 figure strong {display: block; margin: 0.5rem 0;}
+    .season_product01 figure span {display: block; margin: 0.5rem 0;}
+    .season_product01 figure span.price {color: #ff3478;}
     
-    #product01 .case {overflow: hidden;}
-    #product01 figure img {transition: 0.4s;}
-    #product01 figure:hover img {transform: scale(1.2);}
+    .season_product01 .case {overflow: none;}
+    .season_product01 figure img {transition: none;}
+    .season_product01 figure:hover img {transform: none;}
+    
+    
+    .season_product01 .slick-dots {position: relative; text-align: center;}
+    .season_product01 .slick-dots li {display: inline-block; width: 10px; height: 10px; background: #ddd; border-radius: 50%; margin: 0 0.25rem;}
+    .season_product01 .slick-dots li button {display: none;}
+    .season_product01 .slick-dots li.slick-active {background: #5e5048;}
 
 
-
-
-
-
-
+    .slogan {background: #f9f9f9;padding: 2.5rem 0; text-align: center;}
+    .slogan span {font-size: 6vw;font-weight: 100; letter-spacing: 0.2rem;line-height: 2;}
+    .slogan h2 {font-size: 15vw;font-weight: 500; letter-spacing: 0.2rem; margin-bottom: 2rem; color: #5e5048}
+    .slogan p {font-size: 3vw;font-weight: 300; letter-spacing: -0.025rem; line-height: 1.5;}
+    
+    
+    .tab {padding: 5rem 0;}
+    .tab h2 {font-size: 6vw; font-weight: 100; margin-bottom: 1.5rem; text-align: center;}
+    .tab .container {flex-direction: column; width: auto; margin:0 auto;}
+    .tab .tab_menu {display: flex;justify-content: space-between;}
+    .tab .tab_menu li a {display: block; font-size: 3vw;line-height: 30px; padding: 0 10px; margin: 0.35rem 0; border: none; color: #333; text-align: center;}
+    .tab .tab_menu li a:before {content: "#";}
+    .tab .tab_menu li {text-align: center;}
+    .tab .tab_menu li.on {background: #fff;}
+    .tab .tab_menu li.on a {color: #333;}
+    
+    
+    .tab .tab_con {position: relative; width: auto; margin-right: 0.75rem;}
+    .tab .tab_con .tab_slider {position: absolute; top:0; left: 0; width: 100%; visibility: hidden;}
+    .tab .tab_con .tab_slider.on {visibility: visible;}
+    .tab .tab_con figure {padding: 0 0.75rem;}
+    .tab .tab_con figure img {width: 100%;}
+    
 
 
 

@@ -34,6 +34,9 @@ $('.gnb>li>a').on('click', function(e){
 
 
 
+
+
+
     $(window).on('scroll', function(){
       var sct=$(window).scrollTop();
       //---var, let: 변수값 const: 상수값(변하지않는 값)
@@ -111,6 +114,53 @@ $('.gnb>li>a').on('click', function(e){
         });
     
 
+        $('.pd_slider').slick({
+         arrows:false,
+         infinite: true,
+         slidesToShow:3,
+         slidesToScroll: 1,
+         autoplay:false,
+         dots:true,
+         pauseOnHover:false,
+         pauseOnFocus:false,
+         responsive: [
+            {  
+               breakpoint: 768,
+               settings: {
+                  slidesToShow:2 
+               } 
+            },
+         ]
+     });
+     
 
+     $('.tab_menu li').on('click',function(){
+      var $this= $(this);
+      var idx=$(this).index();
+      $('.tab_con>div').eq(idx).addClass('on').siblings().removeClass('on');
+      $this.addClass('on').siblings().removeClass('on');
+  });
+
+  $('.tab_slider').slick({
+      arrows:false,
+      autoplay:true,
+      slidesToShow:4,
+      centerMode:true,
+      responsive: [
+         {  
+            breakpoint: 768,
+            settings: {
+               slidesToShow:1 
+            } 
+         },
+      ]
+  });
+
+
+
+  
 //----------------------------------------
 });
+
+
+   
