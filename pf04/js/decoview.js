@@ -156,9 +156,101 @@ $('.gnb>li>a').on('click', function(e){
       ]
   });
 
+  $('.pr_slider01').slick({
+   arrows:false,
+   slidesToShow:3,
+   autoplay:true,
+   autoplaySpeed:2000,
+   pauseOnHover:false,
+   pauseOnFocus:false,
+   responsive: [
+      {  
+         breakpoint: 768,
+         settings: {
+            slidesToShow:2 
+         } 
+      },
+   ]
+});  
 
 
+  $('.pr_slider02').slick({
+   arrows:false,
+   slidesToShow:3,
+   autoplay:true,
+   autoplaySpeed:2000,
+   pauseOnHover:false,
+   pauseOnFocus:false,
+   responsive: [
+      {  
+         breakpoint: 768,
+         settings: {
+            slidesToShow:2 
+         } 
+      },
+   ]
+});  
+
+
+  $('.pr_slider03').slick({
+   arrows:false,
+   slidesToShow:3,
+   autoplay:true,
+   autoplaySpeed:2000,
+   pauseOnHover:false,
+   pauseOnFocus:false,
+   responsive: [
+      {  
+         breakpoint: 768,
+         settings: {
+            slidesToShow:2 
+         } 
+      },
+   ]
+});  
+
+
+
+
+$('.product02 .main_pd i.xi-arrow-left').on('click', function(){
+   $('.pr_slider01').slick('slickPrev');
+});
+$('.product02 .main_pd i.xi-arrow-right').on('click', function(){
+   $('.pr_slider01').slick('slickNext');
+});
+
+$('.product03 .main_pd i.xi-arrow-left').on('click', function(){
+   $('.pr_slider02').slick('slickPrev');
+});
+$('.product03 .main_pd i.xi-arrow-right').on('click', function(){
+   $('.pr_slider02').slick('slickNext');
+});
+
+$('.product04 .main_pd i.xi-arrow-left').on('click', function(){
+   $('.pr_slider03').slick('slickPrev');
+});
+$('.product04 .main_pd i.xi-arrow-right').on('click', function(){
+   $('.pr_slider03').slick('slickNext');
+});
   
+
+
+
+
+$('.toTop').on('click', function(){
+   $('html, body').animate({scrollTop:0},600)
+ });
+ $(window).on('scroll', function(){
+   var sct=$(window).scrollTop();
+ //   if(set>400) {
+ //       $('#toTop').fedeIn()
+ //   }else{
+ //       $('#toTop').fedeOut()
+ //   }
+   sct>400 ? $('.right_ad').fadeIn()  :   $('.right_ad').fadeOut();
+   $('#scroll_banner').css({top:300+sct})
+ });
+
 //----------------------------------------
 });
 
