@@ -216,10 +216,11 @@ body {font-size: 0.8rem;}
 .footer .col02 dt {font-size: 0.6rem; line-height: 2; margin-top: 0.75rem;}
 .footer .col02 dd {font-size: 0.5rem; margin: 0.3rem 0;}
 .footer .col02 div~div {border-top: 1px solid #999; width: 15rem; margin-top: 15px;}
-.footer .col03 .company {margin-top: 2rem;}
+.footer .col03 .company {margin-top: 1.5rem;}
 .footer .col03 .footer_logo img {width: 7.5rem;}
 .footer .col03 .company dd {font-size: 0.5rem; margin: 0.3rem 0;}
-.footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 4rem; color: #666;}
+.footer .col03 .sns {margin: 1.5rem 0; font-size: 1rem;}
+.footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 0.75rem 0 1rem 0; color: #666;}
 
 .right_ad {display: none; position: fixed; bottom: 2rem; right: 1rem; border-radius: 10px; padding: 20px 10px; background: #fff; box-shadow: 5px 5px 16px -7px gray; text-align: center; z-index: 999;}
 .right_ad div~div:before {content:""; display: block; width: 40px; height: 1px; background: #ddd; margin: 20px auto;}
@@ -443,10 +444,11 @@ body {font-size: 0.8rem;}
     .footer .col02 .support {border-bottom: 1px solid #999; width: auto; margin-top:0; padding-bottom: 1.5rem;}
     .footer .col02 div~div {border-top:none; width: auto; margin-top: 0;}
     .footer .col03 {text-align: center;}
-    .footer .col03 .company {margin-top: 0}
+    .footer .col03 .company {margin-top: 1rem}
     .footer .col03 .footer_logo img {width: 7.5rem;}
     .footer .col03 .company dd {font-size: 0.5rem; margin: none}
-    .footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 0; color: #666;}
+    .footer .col03 .sns {margin: 1rem 0; font-size: 1rem;}
+    .footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 0.75rem 0 1rem 0; color: #666;}
     
 
     .right_ad {display: none; position: fixed; bottom: 20%; right: 2%; border-radius: 10px; padding: 20px 1px; background: #fff; box-shadow: 5px 5px 16px -7px gray; text-align: center; z-index: 999;}
