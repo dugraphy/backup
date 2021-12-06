@@ -222,7 +222,7 @@ body {font-size: 0.8rem;}
 .footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 4rem; color: #666;}
 
 .right_ad {display: none; position: fixed; bottom: 2rem; right: 1rem; border-radius: 10px; padding: 20px 10px; background: #fff; box-shadow: 5px 5px 16px -7px gray; text-align: center; z-index: 999;}
-.right_ad div~div:before {content:""; display: block; width: 40px; height: 0.5px; background: #ddd; margin: 20px auto;}
+.right_ad div~div:before {content:""; display: block; width: 40px; height: 1px; background: #ddd; margin: 20px auto;}
 .right_ad .basket {display: block; color: #ff3478;}
 .right_ad .basket:before {content: "\e9fb";font-size: 1rem; font-family: xeicon!important; color: #ff3478; cursor: pointer;}
 .right_ad .basket:hover:before {content: "\eb6f"}
@@ -450,7 +450,7 @@ body {font-size: 0.8rem;}
     
 
     .right_ad {display: none; position: fixed; bottom: 20%; right: 2%; border-radius: 10px; padding: 20px 1px; background: #fff; box-shadow: 5px 5px 16px -7px gray; text-align: center; z-index: 999;}
-    .right_ad div~div:before {content:""; display: block; width: 50px; height: 0.1px; background: #888; margin: 15px auto;}
+    .right_ad div~div:before {content:""; display: block; width: 50px; height: 1px; background: #888; margin: 15px auto;}
     .right_ad .basket {display: block; color: #ff3478;}
     .right_ad .basket:before {content: "\e9fb";font-size: 1rem; font-family: xeicon!important; color: #ff3478; cursor: pointer;}
     .right_ad .basket:hover:before {content: "\eb6f"}
