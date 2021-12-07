@@ -207,7 +207,7 @@ body {font-size: 0.8rem;}
 .product04 .container .main_pd i.xi-arrow-right {right: 10px;}
 
 .product05 {padding: 5rem 0 5rem 0;}
-.product05 .container {display: flex; justify-content: space-between; align-items: center;}
+.product05 .container {display: flex; justify-content: space-between; align-items: center; width: 100%}
 .product05 h2 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1.5rem;}
 .product05 p {font-size: 0.6rem; font-weight: 500;}
 .product05 .item_container {width: 60rem; margin: 0 auto;}
@@ -225,7 +225,7 @@ body {font-size: 0.8rem;}
 
 
 .review {padding: 5rem 0 5rem 0; background: #f5f5f5}
-.review .container {display: flex; justify-content: space-between; align-items: center;}
+.review .container {display: flex; justify-content: space-between; align-items: center; width: 100%;}
 .review h2 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1.5rem;}
 .review p {font-size: 0.6rem; font-weight: 500;}
 .review .item_container {width: 60rem; margin: 0 auto;}
