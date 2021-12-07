@@ -287,7 +287,7 @@ body {font-size: 0.8rem;}
     .header h1 img {width: 5rem;}
 
     .header .search {display: block; position: fixed; top: 0; right: 17vw; opacity: 0; z-index: 1000;}
-    .header .search.on {opacity: 1;transition: 0.5s;}
+    .header .search.on {opacity: 1;transition: 0.5s 0.2s;}
     .header .search input {outline: none; width: 30vw; height: 1.5rem; border: 1px solid #333 ; border-radius: 50px;}
     .header .search button {border: none; background: none;}
 
@@ -298,11 +298,11 @@ body {font-size: 0.8rem;}
     .top_nav ol>li~li a::before {content: ""; display: none; width: 1px; height: 0.4rem; margin: 0 0.3rem;  background: #ddd;}
     .top_nav ol>.category {display: none; vertical-align: sub; font-size: 0.8rem;}
 
-    .mopen {display: block; position: fixed; top: 1.75rem; right: 0.75rem; font-size: 1rem; padding: 5px; background: rgba(255, 255, 255, 0.4); color: #333; z-index: 1000;}
+    .mopen {display: block; position: fixed; top: 1.75rem; right: 0.75rem; font-size: 1rem; padding: 5px; background: rgba(255, 255, 255, 0.5); border-radius: 50%; color: #333; z-index: 1000;}
 
 
-    .bottom_menu {position: fixed; top: 0; right: -100%; background: #fff; border-left: 1px solid #ddd; width:calc(100% - 20%); height: 100vh; transition: 0.5s; z-index: 998;}
-    .bottom_menu.on {right: 0;}
+    .bottom_menu {position: fixed; top: 0; right: -100%; background: #fff; border-left: 1px solid #ddd; width:calc(100% - 20%); height: 100vh; z-index: 998;}
+    .bottom_menu.on {right: 0;transition: 0.5s}
     .bottom_menu .gnb {display: flex; flex-direction:column;}
     .bottom_menu .gnb>li {text-align: center;position: relative; top:2.5rem;}
     .bottom_menu .gnb>li>a {display: block; padding: 0 1.25rem; font-size: 0.7rem; line-height: 2rem;}
