@@ -157,7 +157,7 @@ body {font-size: 0.8rem;}
 .product02 .container .main_pd figure {padding: 0 15px;}
 .product02 .container .main_pd img {max-width: 100%;}
 .product02 .container .main_pd strong {display: block; font-size: 0.8rem; margin: 0.5rem 0;}
-.product02 .container .main_pd p {display: block; font-size: 0.7rem; margin: 0.5rem 0;}
+.product02 .container .main_pd p {display: block; font-size: 0.7rem; font-weight: 300; margin: 0.5rem 0;}
 .product02 .container .main_pd span { margin: 0.5rem 0; color: #ff3478;}
 
 .product02 .container .main_pd i {position: absolute; top:50%; transform: translateY(-50%); background: #f7f7f7; box-shadow: 3px 5px 10px -4px gray; padding: 10px; border-radius: 50%; }
@@ -178,7 +178,7 @@ body {font-size: 0.8rem;}
 .product03 .container .main_pd figure {padding: 0 15px;}
 .product03 .container .main_pd img {max-width: 100%;}
 .product03 .container .main_pd strong {display: block; font-size: 0.8rem; margin: 0.5rem 0;}
-.product03 .container .main_pd p {display: block; font-size: 0.7rem; margin: 0.5rem 0;}
+.product03 .container .main_pd p {display: block; font-size: 0.7rem; font-weight: 300; margin: 0.5rem 0;}
 .product03 .container .main_pd span { margin: 0.5rem 0; color: #ff3478;}
 
 .product03 .container .main_pd i {position: absolute; top:50%; transform: translateY(-50%); background: #f7f7f7; box-shadow: 3px 5px 10px -4px gray; padding: 10px; border-radius: 50%; }
@@ -199,7 +199,7 @@ body {font-size: 0.8rem;}
 .product04 .container .main_pd figure {padding: 0 15px;}
 .product04 .container .main_pd img {max-width: 100%;}
 .product04 .container .main_pd strong {display: block; font-size: 0.8rem; margin: 0.5rem 0;}
-.product04 .container .main_pd p {display: block; font-size: 0.7rem; margin: 0.5rem 0;}
+.product04 .container .main_pd p {display: block; font-size: 0.7rem; font-weight: 300; margin: 0.5rem 0;}
 .product04 .container .main_pd span { margin: 0.5rem 0; color: #ff3478;}
 
 .product04 .container .main_pd i {position: absolute; top:50%; transform: translateY(-50%); background: #f7f7f7; box-shadow: 3px 5px 10px -4px gray; padding: 10px; border-radius: 50%; }
@@ -219,8 +219,8 @@ body {font-size: 0.8rem;}
 .product05 .item_box .sale_item .text {width: 100%; margin: auto 0; padding: 0 15px;}
 
 .product05 .item_box .sale_item .text strong {display: block; font-size: 0.8rem; margin: 0.5rem 0;}
-.product05 .item_box .sale_item .text p {display: block; font-size: 0.65rem; margin: 0.5rem 0;}
-.product05 .item_box .sale_item .text span {font-size: 0.65rem; margin: 0.5rem 0; color: #888;text-decoration: line-through;}
+.product05 .item_box .sale_item .text p {display: block; font-size: 0.65rem; font-weight: 300; margin: 0.5rem 0;}
+.product05 .item_box .sale_item .text span {font-size: 0.65rem; margin: 0.5rem 0;text-decoration: line-through;}
 .product05 .item_box .sale_item .text em { margin: 0.5rem 0; color: #ff3478;}
 
 
@@ -452,7 +452,7 @@ body {font-size: 0.8rem;}
     .product04 .container .main_pd figure {padding: 0 15px;}
     .product04 .container .main_pd img {max-width: 100%;}
     .product04 .container .main_pd strong {display: block; font-size: 0.8rem; margin: 0.5rem 0;}
-    .product04 .container .main_pd p {display: block; font-size: 0.6rem; margin: 0.5rem 0;}
+    .product04 .container .main_pd p {display: block; font-size: 0.6rem; font-weight: 300; margin: 0.5rem 0;}
     .product04 .container .main_pd span { margin: 0.5rem 0; font-size: 0.7rem; color: #ff3478;}
     
     .product04 .container .main_pd i {position: absolute; top:50%; transform: translateY(-50%); background: #f7f7f7; box-shadow: 5px 5px 15px -6px gray; padding: 5px; border-radius: 50%; }
@@ -471,14 +471,14 @@ body {font-size: 0.8rem;}
     .product05 .item_box .sale_item .text {width: 60%; margin: auto 0; padding: 0 0.75rem;}
 
     .product05 .item_box .sale_item .text strong {display: block; font-size: 0.7rem; margin: 0.5rem 0;}
-    .product05 .item_box .sale_item .text p {display: block; font-size: 0.6rem; margin: 0.5rem 0;}
+    .product05 .item_box .sale_item .text p {display: block; font-size: 0.6rem; font-weight: 300; margin: 0.5rem 0;}
     .product05 .item_box .sale_item .text span {font-size: 0.5rem; margin: 0.5rem 0; color: #888;text-decoration: line-through;}
     .product05 .item_box .sale_item .text em {font-size: 0.7rem; margin: 0.5rem 0; color: #ff3478;}
         
     .review {padding: 5rem 0; background: #f5f5f5;}
     .review .container {display: flex; justify-content: space-between; align-items: center;}
     .review h2 {font-size: 6vw; font-weight: 100; margin-bottom: 1.5rem; width: 100vw;}
-    .review p {font-size: 2vw; font-weight: 500; margin-bottom: 1.5rem;}
+    .review p {font-size: 2vw; font-weight: 500; margin-bottom: 1.5rem;color: #555}
     .review .item_container {width: auto; margin: 0 auto;}
     .review .review_box {display: flex; flex-wrap: nowrap; flex-direction: column;}
     .review .review_box .sale_item {width: 100%; padding: 15px;}
@@ -486,9 +486,9 @@ body {font-size: 0.8rem;}
     .review .review_box .sale_item .case {width: 50%;}
     .review .review_box .sale_item .case img {border-radius: 10px;}
     .review .review_box .sale_item .review_text {width: 50%; margin: auto 0; padding: 0 15px;}
-    .review .review_box .sale_item .review_text p {display: block; font-size: 0.7rem; margin: 0.5rem 0; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
-    .review .review_box .sale_item .review_text em {font-size: 0.6rem; color: #333;}
-    .review .review_box .sale_item .review_text span {font-size: 0.6rem; margin: 0.5rem 0; color: #333;}
+    .review .review_box .sale_item .review_text p {display: block; font-size: 0.7rem; margin: 0.5rem 0; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;color: #555}
+    .review .review_box .sale_item .review_text em {font-size: 0.6rem; color: #555;}
+    .review .review_box .sale_item .review_text span {font-size: 0.6rem; margin: 0.5rem 0; color: #555;}
     
 
 
@@ -500,22 +500,22 @@ body {font-size: 0.8rem;}
     .footer .col01 .bank {flex: 1; padding: 0 0.375rem;}
     .footer .col01 .return {flex: 1; padding: 0 0 0 0.375rem;}
     .footer .col01 div~div {border-top: none;border-left: 1px solid #999; margin-top: 0;}
-    .footer .col01 strong {display: block; font-size: 0.6rem; line-height: 1; margin-top: 0;}
+    .footer .col01 strong {display: block; font-size: 0.6rem; line-height: 1; margin-top: 0;color: #555}
     .footer .col01 a {font-size: 0.6rem; font-weight: 700; color: #5e5048}
-    .footer .col01 span {display: block; font-size: 0.5rem; margin: 0.3rem 0;}
+    .footer .col01 span {display: block; font-size: 0.5rem; margin: 0.3rem 0;color: #555}
 
     .footer .col02 {flex: 1; margin: 1.5rem 0; text-align: center;} 
-    .footer .col02 dt {font-size: 0.6rem; line-height: 1; margin-top: 1.5rem;}
-    .footer .col02 dd {font-size: 0.5rem;}
+    .footer .col02 dt {font-size: 0.6rem; line-height: 1; margin-top: 1.5rem; color: #555}
+    .footer .col02 dd {font-size: 0.5rem; color: #555}
     .footer .col02 .info {border-top: 1px solid #999; width: auto; margin: 0; padding: 0}
     .footer .col02 .support {border-bottom: 1px solid #999; width: auto; margin-top:0; padding-bottom: 1.5rem;}
     .footer .col02 div~div {border-top:none; width: auto; margin-top: 0;}
     .footer .col03 {text-align: center;}
     .footer .col03 .company {margin-top: 1rem}
     .footer .col03 .footer_logo img {width: 7.5rem;}
-    .footer .col03 .company dd {font-size: 0.5rem; margin: none}
-    .footer .col03 .sns {margin: 1rem 0; font-size: 1rem;}
-    .footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 0.75rem 0 1rem 0; color: #666;}
+    .footer .col03 .company dd {font-size: 0.5rem; margin: none; color: #555}
+    .footer .col03 .sns {margin: 1rem 0; font-size: 1rem; color: #555}
+    .footer .col03 .company em {display: inline-block; font-size: 0.5rem; margin-top: 0.75rem 0 1rem 0; color: #999;}
     
 
     .right_ad {display: none; position: fixed; bottom: 20%; right: 2%; border-radius: 10px; padding: 20px 1px; background: #fff; box-shadow: 5px 5px 16px -7px gray; text-align: center; z-index: 999;}
@@ -524,9 +524,9 @@ body {font-size: 0.8rem;}
     .right_ad .basket:before {content: "\e9fb";font-size: 1rem; font-family: xeicon!important; color: #5e5048; cursor: pointer;}
     .right_ad .basket:hover:before {content: "\eb6f";color: #ff3478;}
     .right_ad .recently {display: block;}
-    .right_ad .recently a {font-size: 0.5rem; margin: 0 5px;}
+    .right_ad .recently a {font-size: 0.5rem; margin: 0 5px; }
     .right_ad .toTop {display: block;}
-    .right_ad .toTop i {font-size: 0.7rem; color: #333;cursor: pointer;}
+    .right_ad .toTop i {font-size: 0.7rem; color: #555;cursor: pointer;}
 
 
 
