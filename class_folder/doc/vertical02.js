@@ -15,5 +15,6 @@ $('.main_visual').on('afterChange', function(e,s,c){
 });
 
 
+
 //------
 });
