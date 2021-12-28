@@ -159,7 +159,35 @@ body {font-size: 0.8rem;}
 .content03.on .shape {transform: translate(0, 0); transition: 0.5s;}
 
 
-.content04
+.content04 {background: #fff;}
+.content04 .container {height: 35rem;padding: 0 10rem;}
+.content04 .container>strong {display: block;text-align: center; font-size: 2.1rem; margin-bottom: 1rem;}
+.content04 .container>h2 {text-align: center; font-size: 3rem; font-weight: 700; margin-bottom: 2rem;}
+
+.content04 .case {display: flex; height: 100%;}
+.content04 .case>div {position: relative; padding: 0 1rem}
+.content04 .case>div~div:after {content: ""; display: block; position: absolute; top: 0; left: 0; width: 1px; height: 26rem; background: #333;}
+
+.content04 .notice {flex: 1; width: 30%;}
+.content04 .notice h3 {font-size: 1.2rem; font-weight: 400; margin-bottom: 1rem;}
+
+.content04 .notice .tit p {display: block; width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+.content04 .sub_notice {flex: 1; width: 40%;}
+.content04 .sub_notice .menu {text-align: center;}
+.content04 .sub_notice .menu>ul>li {padding: 0 1rem;}
+.content04 .sub_notice .menu>ul>li a {justify-content: space-between;}
+.content04 .sub_notice .menu>ul>li span {display: inline-block; margin-bottom: 1rem;}
+.content04 .sub_notice .menu>ul>li strong {display: inline-block; text-align: left; width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.content04 .sub_notice .menu>ul>li em {display: inline-block; text-align: right;}
+
+.content04 .gallery {flex: 1; width: 30%;}
+.content04 .gallery figure img {width: 100%;}
+.content04 .gallery .text {display: flex; justify-content: space-between;}
+.content04 .gallery .text h3 {font-size: 1.2rem; font-weight: 400; margin-bottom: 1rem; }
+.content04 .gallery .text>a {font-size: 0.6rem; line-height: 1rem; font-weight: 300;}
+.content04 .gallery figure {background: #fff; padding-bottom: 1rem; text-align: center;}
+.content04 .gallery figure>p {font-size: 0.8rem; line-height: 1rem; font-weight: 300;}
 
 /* @media (max-width:768px) {
 html {font-size: 20px;}
