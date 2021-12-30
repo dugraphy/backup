@@ -1,0 +1,120 @@
+html {font-size: 20px;}
+body {font-size: 0.8rem;}
+/* .container {width 82rem} */
+
+/* {outline: 1px solid #f00;} */
+
+.header {position: relative; z-index: 999;}
+.header .container {display: flex ; padding: 0 0 0 3.5rem; line-height: 5rem;}
+.header h1>a {display: block; width: 10rem; margin:0 auto 0 1.5rem;}
+.header .gnb {margin: 0 auto}
+.header .gnb>ul {display: flex;}
+.header .gnb>ul>li {position: relative;}
+.header .gnb>ul>li>a {display: block; padding: 0 1.5rem; font-size: 1rem;}
+.header .gnb>ul>li~li>a:after {content: ""; display: block; width: 1px; height: 0.65rem; background: #ccc; position: absolute; top: 50%; left: 0; transform:translateY(-50%)}
+.header .gnb>ul>li .sub {display: none; line-height: 3; width: 10rem; background: #fff; position: absolute; top: 4rem; left: 50%; transform: translateX(-50%); border: 1px solid #ddd;}
+.header .gnb>ul>li:hover .sub {display: block;}
+.header .gnb>ul>li .sub>li a {display: block; text-align: center;}
+.header .gnb>ul>li .sub>li a:hover {display: block; background: #ed1846; color:#fff}
+.header .sub_gnb>a {margin: 0 0.75rem; position: relative;}
+.header .search {margin: 0 1rem 0 0.75rem; cursor: pointer;}
+
+.section01 {padding: 0 0 0 5rem;}
+.section01 .container {width: 100%; height: calc(100vh - 5rem); overflow: hidden;}
+.section01 .container .case {z-index: -1;}
+
+
+
+.section02 {padding: 5rem 1rem 2.5rem 5rem;}
+.section02 .container {display: flex; margin: 0 auto;}
+.section02 .con02_left {flex: 1; position: relative; border: 1px solid #ccc;}
+.section02 .con02_left .title {position: absolute; top: 10%; left: 10%; transform: translate(-10%, -10%);}
+.section02 .con02_left .title p {font-size: 1rem; font-weight: 400; margin-bottom: 1rem; color: #ed1846}
+.section02 .con02_left .title h3 {font-size: 2rem; font-weight: 700; margin-bottom: 0.8rem;}
+.section02 .con02_left .title span {display: block; font-size: 1.2rem; font-weight: 400; margin-bottom: 1.5rem;} 
+.section02 .con02_left .title a {display: inline-block; font-size: 0.8rem; font-weight: 400;} 
+
+.section02 .con02_right {flex: 3}
+.section02 .con02_right .tab_menu {display: flex; width: 100%; border-right: 1px solid #ccc;}
+.section02 .con02_right .tab_menu>li {position: relative;flex: 1; text-align: center; height: 7rem; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.section02 .con02_right .tab_menu>li .img01 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_01.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li .img02 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_02.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li .img03 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_03.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li .img04 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_04.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li .img05 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_05.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li .img06 {display: block; width: 5rem; height: 5rem; margin: 1rem auto; background: url(../img/school_icon_06.png) no-repeat center center/cover;}
+.section02 .con02_right .tab_menu>li h4 {display: none;}
+.section02 .con02_right .tab_menu>li~li {border-left: 1px solid #ccc;}
+.section02 .con02_right .tab_menu>li.on {height: 7rem;}
+.section02 .con02_right .tab_menu>li.on a {background: #fff;}
+.section02 .con02_right .tab_menu>li.on h4 {display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.2rem; font-weight: 700;}
+
+
+.section02 .con02_right .tab_content {position: relative; height: 21.6rem; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; overflow: hidden;}
+.section02 .con02_right .tab_content>div {opacity: 0; visibility: hidden; width: 100%; height: 100%; position: absolute; top:0; left:0; transform:translateY(200px); transition: 0.5s;}
+.section02 .con02_right .tab_content>div.on {opacity: 1; transform:translateY(0); visibility: visible;}
+.section02 .con02_right .tab_content figure img {width: 100%; height: 100%;}
+
+.section02 .con02_right .tab_content .more {display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; text-align: center;}
+.section02 .con02_right .tab_content .more span {display: block;font-size: 1rem; font-weight: 400; margin-bottom: 0.8rem; letter-spacing: 0.25em;}
+.section02 .con02_right .tab_content .more em {display: block;font-size: 1.5rem; font-weight: 700; margin-bottom: 2rem; letter-spacing: 0.15em}
+.section02 .con02_right .tab_content .more a {font-size: 0.8rem; font-weight: 400;}
+
+
+.section03 {padding: 2.5rem 1rem 5rem 5rem;}
+.section03 .newsroom {display: flex;}
+.section03 .con03_left {flex: 3; display: flex; flex-flow: row wrap;margin: 0 auto;}
+.section03 .con03_left .news {border: 1px solid #ccc; width: 32.5rem;}
+.section03 .con03_left .news01 {margin: 0 0.5rem 0.5rem 0}
+.section03 .con03_left .news02 {margin: 0 0 0.5rem 0.5rem}
+.section03 .con03_left .news03 {margin: 0.5rem 0.5rem 0 0}
+.section03 .con03_left .news04 {margin: 0.5rem 0 0 0.5rem}
+
+.section03 .con03_left .news span {display: block;font-size: 1.2rem; font-weight: 700; line-height: 1.5; text-align: left; padding: 0 5rem; margin: 2.5rem 0}
+.section03 .con03_left .news em {display: inline-block; font-size: 0.75rem; font-weight: 300;padding: 0 5rem; position: relative;}
+.section03 .con03_left .news em:after {content: ""; display: block; width: 51px; height: 12px; background-image: url(../img/arrows_img01.png); background-repeat: no-repeat; background-size: contain; position: absolute; top: 0; left: 22.4rem; transform: translateX(100%);}
+.section03 .con03_left .news:hover em:after {background-image: url(../img/hover_arrows_img01.png); background-repeat: no-repeat; background-size: contain;}
+
+.section03 .con03_right {flex: 1; position: relative; border: 1px solid #ccc; margin-left: 1rem;}
+.section03 .con03_right .title {position: absolute; top: 10%; left: 10%; transform: translate(-10%, -10%);}
+.section03 .con03_right .title p {font-size: 1rem; font-weight: 400; margin-bottom: 1rem; color: #ed1846}
+.section03 .con03_right .title h3 {font-size: 2rem; font-weight: 700; margin-bottom: 0.8rem;}
+.section03 .con03_right .title span {display: block; font-size: 1.2rem; font-weight: 400; margin-bottom: 1.5rem;} 
+.section03 .con03_right .title a {display: inline-block; font-size: 0.8rem; font-weight: 400;}
+
+
+
+.section04 {padding: 5rem 1rem 5rem 5rem; background:url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: fixed; color: #fff; text-align: center;}
+.section04 p {font-size: 1rem; font-weight: 300; letter-spacing: 0.25em; margin-bottom: 1rem;}
+.section04 h2 {font-size: 2rem; font-weight: 700;}
+
+
+
+.section05 {padding: 5rem 1rem 2.5rem 5rem;}
+.section05 .container {display: flex; margin: 0 auto;}
+.section05 .con04_left {display: block; flex: 1; position: relative; border: 1px solid #ccc;}
+.section05 .con04_left .title {position: absolute; top: 10%; left: 10%; transform: translate(-10%, -10%);}
+.section05 .con04_left .title p {font-size: 1rem; font-weight: 400; margin-bottom: 1rem; color: #ed1846}
+.section05 .con04_left .title h3 {font-size: 2rem; font-weight: 700; margin-bottom: 0.8rem;}
+.section05 .con04_left .title span {display: block; font-size: 1.2rem; font-weight: 400; margin-bottom: 1.5rem;} 
+.section05 .con04_left .title a {display: inline-block; font-size: 0.8rem; font-weight: 400;} 
+
+.section05 .con04_right {flex: 3;}
+.section05 .con04_right .event_slider {display: block; width: 66.8rem;}
+.section05 .con04_right .event_slider figure {padding: 0 0.75rem; opacity: 0.3; transform: scale(0.7);transition: 0.2s;}
+.section05 .con04_right .event_slider figure.on {opacity: 1; transform: scale(1)}
+.section05 .con04_right .event_slider figure img {width: 100%;}
+
+
+
+.left_bar {display: block; position: fixed; top: 0; left: 0; line-height: 5rem;}
+.left_bar h2 {display: block; position: relative; width: 5rem; height: 100vh; background: #fff; padding: 0 1rem}
+.left_bar h2 img {width: 100%;}
+.left_bar h2:after {content: ""; display: block; width: 0.65rem; height: 100vh; background: #000; position: absolute; top: 2.5rem; right: 1rem;}
+
+.wheel {display: block; position: fixed; top: 50%; left: 2rem; transform: translateX(-50%); color: #333; animation: wheel 1s infinite;}
+.wheel p {display: block; font-size: 0.8rem; font-weight: 100; writing-mode: vertical-rl; text-orientation: mixed;}
+.wheel p>i {display: inline-block; font-size: 1rem; vertical-align: top;}
+@keyframes wheel {
+    to {top: 55%;}
+}
