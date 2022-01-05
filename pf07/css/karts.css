@@ -108,9 +108,13 @@ body {font-size: 0.8rem;}
 .section04 .con03_right .title a {display: inline-block; font-size: 0.8rem; font-weight: 400;}
 
 
-.section05 {padding: 5rem 1rem 5rem 5rem; background:url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: fixed; color: #fff; text-align: center;}
-.section05 p {font-size: 1rem; font-weight: 300; letter-spacing: 0.25em; margin-bottom: 1rem;}
-.section05 h2 {font-size: 2rem; font-weight: 700;}
+.section05 .first {width: 100%; height: 20rem; position: relative}
+.section05 .bg-wrap {clip: rect(0, auto, auto, 0); position: absolute;top: 0; left: 0; width: 100%;height: 100%;}
+.section05 .bg {position: fixed;display: block; top: 0;left: 0; width: 100%; height: 100%; background-size: cover; background-position: center center;}
+.section05 .first .bg {background-image: url(../img/main_img01.jpg);}
+.section05 .txt {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff}
+.section05 .txt p {font-size: 1rem; font-weight: 300; letter-spacing: 0.25em; margin-bottom: 1rem;}
+.section05 .txt h2 {font-size: 2rem; font-weight: 700;}
 
 
 .section06 {padding: 5rem 1rem 5rem 5rem;}
@@ -321,10 +325,17 @@ body {font-size: 0.8rem;}
     .section04 .con03_right .title a {display: inline-block; font-size: 0.7rem; font-weight: 300; margin-bottom: 1rem;}
     
     
-    .section05 {padding: 5rem 0 5rem 0; background:url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: fixed; color: #fff; text-align: center;}
+    /* .section05 {padding: 5rem 0 5rem 0; background:url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: fixed; color: #fff; text-align: center;}
     .section05 p {font-size: 0.8rem; font-weight: 400; letter-spacing: 0.25em; margin-bottom: 1rem;}
     .section05 h2 {font-size: 1.2rem; font-weight: 700;}
-    
+     */
+    .section05 .first {width: 100%; height: 10rem; position: relative}
+    .section05 .bg-wrap {clip: rect(0, auto, auto, 0); position: absolute;top: 0; left: 0; width: 100%;height: 100%;}
+    .section05 .bg {position: fixed;display: block; top: 0;left: 0; width: 100%; height: 100%; background-size: cover; background-position: center center;}
+    .section05 .first .bg {background-image: url(../img/main_img01.jpg);}
+    .section05 .txt {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff; width: 100%;}
+    .section05 .txt p {font-size: 0.8rem; font-weight: 400; letter-spacing: 0.25em; margin-bottom: 1rem;}
+    .section05 .txt h2 {font-size: 1.2rem; font-weight: 700;}
     
     .section06 {padding: 2.5rem 0}
     .section06 .container {display: flex; flex-direction: column; margin: 0}
