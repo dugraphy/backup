@@ -1,7 +1,7 @@
 $(function(){
 //----------------------------------------
 
-$(".section01 .case").YTPlayer({videoURL:'https://www.youtube.com/embed/HVw84iDz2r4?list=PLxenVXjyviTNotHRWiezfXqqVDPJa77u3',containment:'.section01 .case',
+$(".section01 .case").YTPlayer({videoURL:'https://www.youtube.com/embed/HVw84iDz2r4?list=PLxenVXjyviTNotHRWiezfXqqVDPJa77u3',containment:'.section01 .case' ,
 autoPlay:true, 
 mute:true, 
 startAt:0, 
@@ -9,6 +9,7 @@ opacity:1,
 showControls:false,
 loop:true,
 ratio:true,
+playsinline:1,
 });
 
 $('.tab_menu>li').on('click', function(){
