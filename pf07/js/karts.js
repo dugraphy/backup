@@ -1,17 +1,7 @@
 $(function(){
 //----------------------------------------
 
-$(".section01 .case").YTPlayer({videoURL:'https://youtu.be/HVw84iDz2r4',containment:'.section01 .case',
-autoPlay:true, 
-mute:true, 
-startAt:0, 
-opacity:1,
-showControls:false,
-loop:true,
-ratio:true,
-realfullscreen:false,
-useOnMobile:true,
-});
+
 
 
 $(window).on('scroll', ()=>{

@@ -1,6 +1,6 @@
 html {font-size: 20px;}
 body {font-size: 0.8rem;}
-
+/* {outline: 1px solid #ed1846;} */
 
 .header {position: relative; z-index: 999;}
 .header .container {display: flex ; padding: 0 0 0 3.5rem; line-height: 5rem;}
@@ -19,7 +19,9 @@ body {font-size: 0.8rem;}
 
 .section01 {padding: 0 0 0 5rem;}
 .section01 .container {width: 100%; height: calc(100vh - 5rem); overflow: hidden;}
-.section01 .container .case {z-index: -1;}
+
+
+
 
 .section02 {padding: 0 0 0 5rem;}
 .section02 .container {margin: 0 auto}
@@ -237,8 +239,10 @@ body {font-size: 0.8rem;}
     
     .section01 {padding: 0}
     .section01 .container {width: 100%; height: 100%; overflow: hidden; padding: 5rem 0 0 0}
-    .section01 .container .case {z-index: -1;}
-    
+    .section01 .container figure video {max-width: 100%;}
+ 
+ 
+
     
     .section02 {padding: 0 0 2.5rem 0;}
     .section02 .container {margin: 0}
