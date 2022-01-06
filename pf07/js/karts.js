@@ -9,8 +9,17 @@ opacity:1,
 showControls:false,
 loop:true,
 ratio:true,
-playsinline:1,
 });
+
+
+$(window).on('scroll', ()=>{
+  let sct=$(window).scrollTop();
+  sct > 0 ? $('.header').addClass('on') : $('.header').removeClass('on');
+
+  sct > 350? $('.toTop').fadeIn() : $('.toTop').fadeOut()
+
+  
+})
 
 
 $('.tab_menu>li').on('click', function(){
@@ -85,7 +94,10 @@ $('.event_slider').on('afterChange', function(e,s,c){
 });
 
 
-
+$('.toTop a').on('click', e=> {
+  e.preventDefault();
+  $('html,body').animate({scrollTop:0})
+})
 
 
 

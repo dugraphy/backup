@@ -21,7 +21,6 @@ body {font-size: 0.8rem;}
 .section01 .container {width: 100%; height: calc(100vh - 5rem); overflow: hidden;}
 .section01 .container .case {z-index: -1;}
 
-
 .section02 {padding: 0 0 0 5rem;}
 .section02 .container {margin: 0 auto}
 .section02 .container .link .icon {display: flex; justify-content: space-between;border: 1px solid #ccc;}
@@ -110,8 +109,8 @@ body {font-size: 0.8rem;}
 
 .section05 .first {width: 100%; height: 20rem; position: relative}
 .section05 .bg-wrap {clip: rect(0, auto, auto, 0); position: absolute;top: 0; left: 0; width: 100%;height: 100%;}
-.section05 .bg {position: fixed;display: block; top: 0;left: 0; width: 100%; height: 100%; background-size: cover; background-position: center center;}
-.section05 .first .bg {background-image: url(../img/main_img01.jpg);}
+.section05 .bg {display: block;}
+.section05 .first .bg {background: url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: scroll;}
 .section05 .txt {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff}
 .section05 .txt p {font-size: 1rem; font-weight: 300; letter-spacing: 0.25em; margin-bottom: 1rem;}
 .section05 .txt h2 {font-size: 2rem; font-weight: 700;}
@@ -167,7 +166,7 @@ body {font-size: 0.8rem;}
 .footer .top .right ul {display: none; border-top: 1px solid #ccc}
 .footer .top .right ul li {border-bottom: 1px solid #ccc}
 .footer .top .right ul li:hover {background: #ed1846; color: #fff}
-.footer .top .right a {}
+
 
 .footer .bottom {display: flex; justify-content: space-between; margin-top: 3rem;}
 .footer .bottom .left {flex: 1; display: flex; text-align: left;}
@@ -201,6 +200,10 @@ body {font-size: 0.8rem;}
 }
 
 
+.toTop {display: none; position: fixed; bottom: 5rem; right: 5rem}
+.toTop i {font-size: 1rem; padding: 0.5rem; background: #333; border-radius: 50%; color: #ccc}
+
+
 /* Mobile버전 */
 
 @media screen and (max-width: 768px) {
@@ -218,7 +221,7 @@ body {font-size: 0.8rem;}
     .header .gnb {position: fixed; top: 0; left: -100%; width: 100%; height: 100vh; margin: 0 auto; background: #fff;z-index: 997;}
     .header .gnb.on {left: 0;}
     .header .gnb>ul {display: flex; flex-direction: column; margin-top: 5rem; height: 25rem; overflow-y: auto;}
-    .header .gnb>ul>li {position: relative; line-height: 3;}
+    .header .gnb>ul>li {position: relative; line-height: 4;}
     .header .gnb>ul>li>a {display: block; padding: 0 1.5rem; font-size: 1rem; text-align: center;}
     .header .gnb>ul>li~li>a:after {content: ""; display: none; width: 1px; height: 0.65rem; background: #ccc; position: absolute; top: 50%; left: 0; transform:translateY(-50%)}
     .header .gnb>ul>li .sub {display: none; line-height: 3; width: auto; background: #fff; position: static; top: 4rem; left: 50%; transform: translateX(0); border: 1px solid #ddd;}
@@ -229,6 +232,8 @@ body {font-size: 0.8rem;}
     .header .sub_gnb {margin: 0 2.25rem 0 0; position: relative;}
     .header .sub_gnb>a {margin: 0 0 0 0.75rem; position: relative;}
     .header .mobile_open {display: block; position: fixed; top: 0; right: 0; margin: 0 0.75rem 0 0.375rem; z-index: 999;}
+    .header .mobile_open.on:after {content: "\e921"; font-family: xeicon!important;}
+    .header .mobile_open.on i {display: none;}
     
     .section01 {padding: 0}
     .section01 .container {width: 100%; height: 100%; overflow: hidden; padding: 5rem 0 0 0}
@@ -325,10 +330,6 @@ body {font-size: 0.8rem;}
     .section04 .con03_right .title a {display: inline-block; font-size: 0.7rem; font-weight: 300; margin-bottom: 1rem;}
     
     
-    /* .section05 {padding: 5rem 0 5rem 0; background:url(../img/main_img01.jpg) no-repeat center center/cover; background-attachment: fixed; color: #fff; text-align: center;}
-    .section05 p {font-size: 0.8rem; font-weight: 400; letter-spacing: 0.25em; margin-bottom: 1rem;}
-    .section05 h2 {font-size: 1.2rem; font-weight: 700;}
-     */
     .section05 .first {width: 100%; height: 10rem; position: relative}
     .section05 .bg-wrap {clip: rect(0, auto, auto, 0); position: absolute;top: 0; left: 0; width: 100%;height: 100%;}
     .section05 .bg {position: fixed;display: block; top: 0;left: 0; width: 100%; height: 100%; background-size: cover; background-position: center center;}
@@ -337,7 +338,7 @@ body {font-size: 0.8rem;}
     .section05 .txt p {font-size: 0.8rem; font-weight: 400; letter-spacing: 0.25em; margin-bottom: 1rem;}
     .section05 .txt h2 {font-size: 1.2rem; font-weight: 700;}
     
-    .section06 {padding: 2.5rem 0}
+    .section06 {padding: 5rem 0 2.5rem 0}
     .section06 .container {display: flex; flex-direction: column; margin: 0}
     .section06 .con04_left {display: block; flex: 1; position: relative;text-align: center;}
     .section06 .con04_left figure {width: auto}
@@ -352,7 +353,7 @@ body {font-size: 0.8rem;}
     .section06 .con04_right .event_slider {display: block; width: auto; text-align: center;}
     .section06 .con04_right .event_slider figure {padding: 0 0.75rem; opacity: 0; transform: scale(0.7);transition: 0.2s;}
     .section06 .con04_right .event_slider figure.on {opacity: 1; transform: scale(1)}
-    .section06 .con04_right .event_slider figure img {width: 100%;margin: 0 auto}
+    .section06 .con04_right .event_slider figure img {width: 50%;margin: 0 auto}
     
     .section06 .con04_right .event_slider span {display: block; font-size: 1rem; font-weight: 700; margin: 1rem 0; width: 100%; opacity: 0; transition: 0.2s;}
     .section06 .con04_right .event_slider em {display: block; font-size: 0.8rem; font-weight: 300; width: 100%; opacity: 1; transition: 0.2s;}
@@ -385,7 +386,7 @@ body {font-size: 0.8rem;}
     .footer .top .left>ul>li {display: block; margin: 0.5rem; font-size: 0.65rem;}
     .footer .top .left>ul>li:before {content:""; display: none; width: 0.2rem; height: 0.2rem; border-radius: 50%; background: #ccc; font-size: 0; margin: 0.1rem 0.5rem;}
     .footer .top .left ul .important {color: #ed1846}
-    .footer .top .right {position:absolute; bottom: 0; right: 0; width: 100%; text-align: center; font-size: 0.75rem;border-top: 1px solid #555; border-left: none; border-right: none; background: #333; line-height: 2rem;}
+    .footer .top .right {position:absolute; bottom: 0; right: 0; width: 100%; text-align: center; font-size: 0.7rem;border-top: 1px solid #555; border-left: none; border-right: none; background: #333; line-height: 2rem;}
     .footer .top .right ul {display: none; border-top: 1px solid #555;}
     .footer .top .right ul li {border-bottom: 1px solid #555}
     .footer .top .right ul li:hover {background: #ed1846; color: #fff}
@@ -422,4 +423,8 @@ body {font-size: 0.8rem;}
     @keyframes wheel {
         to {top: 55%;}
     }
+    
+    .toTop {display: none; position: fixed; bottom: 4.8rem; right: 1rem; z-index: 998;}
+    .toTop i {font-size: 1rem; padding: 0.5rem; background: #333; border-radius: 50%; color: #ccc}
+
 }
