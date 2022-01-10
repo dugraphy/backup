@@ -1,0 +1,133 @@
+:root {
+    --mc: #E05F5E;
+    --sc: #85B8FA;
+    --lc: #f3f3f3;
+    --dc: #333333;
+    --gc: #dddddd;
+}
+
+html {font-size: 20px;}
+body {font-size: 0.8rem; color: var(--dc);}
+
+
+#wrap {min-width: 95rem}
+#header h1 {position: fixed; top: 3rem; left: 3rem; z-index: 999;}
+
+
+
+#header nav {position: fixed; top: 50%; right: 3rem; transform: translateY(-50%); z-index: 999;}
+#header nav li a {display: block; position: relative; width: 2rem; height: 1rem; text-indent: -9999px;}
+#header nav li a:after {content: ""; display: block; position: absolute; top: 0.45rem; right: 0; width: 40%; height: 0.1rem; background: var(--sc); border-radius: 0.15rem; transition: 0.3s;}
+#header nav li.on a:after {width: 100%; background: var(--mc)}
+
+#header .cover_btn {position: fixed; top: 3rem; right: 3rem; z-index: 999;}
+#header .cover_btn i {font-size: 1.5rem; padding: 0.5rem; background: var(--lc);}
+
+.container {display: grid; position: relative; grid-template-columns: repeat(2,1fr); gap: 2rem; align-items: center; width: 70rem; margin: 0 auto;}
+
+
+
+.intro figure {border-radius: 45% 55% 13% 87% / 43% 84% 16% 57%;; overflow: hidden; animation: int_movie 5s infinite;}
+.intro figure:hover {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+.intro .container:after {content: ""; position: absolute; top: 3rem; right: 1rem; display: block; width: 5rem; height: 5rem; background: var(--sc); border-radius: 50%; opacity: 0.7;}
+
+@keyframes int_movie {
+    0% {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+    20% {border-radius: 75% 25% 64% 36% / 24% 33% 67% 76%;}
+    40% {border-radius: 45% 55% 13% 87% / 43% 84% 16% 57%;}
+    60% {border-radius: 27% 73% 13% 87% / 68% 58% 42% 32%;}
+    80% {border-radius: 48% 52% 35% 65% / 55% 75% 25% 45%;}
+    100% {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+}
+
+.intro figure img {width: 100%;}
+.intro .slogan h2 {font-size: 3rem; font-weight: 700; margin-bottom: 1rem;}
+.intro .slogan p {font-size: 0.75rem; font-weight: 300; margin-bottom: 1rem;}
+.intro .slogan strong {display: block; font-size: 1rem; font-weight: 500;}
+
+.intro .wheel {position: absolute; bottom: 3rem; left: 50%; transform: translateX(-50%); width: 1.7rem; height: 2.8rem; border: 2px solid var(--dc); font-size: 0; border-radius: 0.8rem; opacity: 0.5;}
+.intro .wheel span {position: absolute; top: 0.3rem; left: 50%; transform: translateX(-50%); width: 0.1rem; height: 0.5rem; background: var(--dc); border-radius: 0.1rem; animation: wheel 0.7s infinite;}
+
+@keyframes wheel {
+    to {top:0.6rem}
+}
+
+
+.section {background: url(./lib/base/pf_bg_pattern02.png);}
+.section {max-width: 100%;}
+.section .mockup {background: url(./lib/base/mockup01.png) no-repeat center top/100%; padding: 15.5% 19% 20% 19%}
+.section .mockup figure {position: relative; padding-bottom: 56.25%; overflow: hidden;}
+.section .mockup figure img {position: absolute; top:0 ; left: 0; width: 100%; transition: 10s;}
+.section .mockup figure:hover img {transform: translateY(-100%);top:100%}
+
+.section .description h3 {font-size: 2.5rem; font-weight: 200; margin-bottom: 1rem;}
+.section .description p {font-size: 0.75rem; font-weight: 300; margin-bottom: 2rem;}
+
+.section .description dl {display: inline-flex; line-height: 1.5rem; border-bottom: 1px solid var(--gc);}
+.section .description dl dt {width: 6rem;}
+.section .description dl dt::before {content: "＃"; margin-right: 1rem;}
+.section .description dl:last-of-type {margin-bottom: 2rem;}
+
+.section .description ul {display: flex; gap: 0.5rem}
+.section .description ul a {display: block; background: var(--mc); color: var(--lc); line-height: 3rem; padding: 0 2rem; }
+
+/* svg 이해 부분 시작 */
+
+#header h1 a {display: block; width: 10rem;}
+#header h1 a .st0{fill:#FF0049; animation: path 3s infinite;}
+#header h1 a .txt1{font-family:'NotoSansKR';font-size:1.5rem; font-weight: 400;}
+#header h1 a .txt2{font-family:'NotoSansKR';font-size:2rem; font-weight: 700;}
+
+@keyframes color {
+    0% {fill: #f0f;}
+    50% {fill: #ff0;}
+    100% {fill: #f00;}
+}
+@keyframes path {
+    0% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-147.67-31.61-147.67-83.76S139.35,103.45,257.45,59C388.22,9.78,469.04,99.41,485.94,153.41z")}
+    10% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-188.82-30.15-188.82-82.29s79.7-33.14,191.02-92.57C396.31,0,469.04,99.41,485.94,153.41z")}
+    20% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-27.21-235.1-79.35s125.99-36.08,237.31-95.51C396.31,0,469.04,99.41,485.94,153.41z")}
+    30% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-102.15-235.1-154.29s125.99,38.86,237.31-20.57C396.31,0,469.04,99.41,485.94,153.41z")}
+    35% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-15.45-235.1-67.59s125.99-47.83,237.31-107.27C396.31,0,469.04,99.41,485.94,153.41z")}
+    40% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1,58.02-235.1,5.88s125.99-121.3,237.31-180.73C396.31,0,469.04,99.41,485.94,153.41z")}
+    45% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-102.15-235.1-154.29s125.99,38.86,237.31-20.57C396.31,0,469.04,99.41,485.94,153.41z")}
+    50% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-15.45-235.1-67.59s125.99-47.83,237.31-107.27C396.31,0,469.04,99.41,485.94,153.41z")}
+    55% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1,58.02-235.1,5.88s125.99-121.3,237.31-180.73C396.31,0,469.04,99.41,485.94,153.41z")}
+    60% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-102.15-235.1-154.29s125.99,38.86,237.31-20.57C396.31,0,469.04,99.41,485.94,153.41z")}
+    65% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-15.45-235.1-67.59s125.99-47.83,237.31-107.27C396.31,0,469.04,99.41,485.94,153.41z")}
+    70% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1,58.02-235.1,5.88s125.99-121.3,237.31-180.73C396.31,0,469.04,99.41,485.94,153.41z")}
+    80% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-235.1-15.45-235.1-67.59s125.99-47.83,237.31-107.27C396.31,0,469.04,99.41,485.94,153.41z")}
+    100% {d:path("M485.94,153.41c15.57,49.76-91.1,94.41-228.49,94.41c-126.19,0-147.67-31.61-147.67-83.76S139.35,103.45,257.45,59C388.22,9.78,469.04,99.41,485.94,153.41z")}
+}
+
+.gooey {filter:url('#bbq'); position: relative; height: 2.5rem;}
+.gooey span {position: absolute; top: 0; left: 0; display: block; width: 2.5rem; height: 2.5rem; background: var(--mc); border-radius: 50%; text-indent: -9999px; color: var(--lc);}
+.gooey span:nth-child(2) {animation: txtani 2s infinite;}
+
+@keyframes txtani {
+    0% {left: 0}
+    50% {left: 7rem}
+    100% {left: 0}
+}
+
+
+
+.box_mask {width: 20rem;}
+.st3 {animation: maskani 2s infinite;}
+
+@keyframes maskani {
+    0% {d:path("M314.23,282.64H100.59c-22.72,0-41.14-18.42-41.14-41.14V124.68c0-22.72,18.42-41.14,41.14-41.14h213.64c22.72,0,41.14,18.42,41.14,41.14V241.5C355.36,264.22,336.95,282.64,314.23,282.64z")}
+    50% {d:path("M314.23,282.64H100.59c-22.72,0-41.14-18.42-41.14-41.14V124.68c121.82,58.41,41.14-13.86,41.14-41.14h213.64c22.72,0,41.14,18.42,41.14,41.14V241.5C355.36,264.22,336.95,282.64,314.23,282.64z")}
+}
+
+
+
+
+
+
+
+/* svg 이해 부분 끝 */
+
+#footer .totop {position: fixed; bottom: 3rem; right: 3rem; z-index: 999;}
+#footer .totop i {font-size: 1.5rem; padding: 0.5rem; background: var(--lc);}
+#footer address {position: fixed; bottom: 3rem; left: 3rem; z-index: 999;}

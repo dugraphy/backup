@@ -1,0 +1,123 @@
+:root {
+    --mc: #E05F5E;
+    --sc: #85B8FA;
+    --lc: #f3f3f3;
+    --dc: #333333;
+    --gc: #dddddd;
+}
+
+html {font-size: 20px;}
+body {font-size: 0.8rem; color: var(--dc);}
+
+
+#wrap {min-width: 95rem}
+#header h1 {position: fixed; top: 3rem; left: 3rem; z-index: 999;}
+
+
+
+#header nav {position: fixed; top: 50%; right: 3rem; transform: translateY(-50%); z-index: 999;}
+#header nav li a {display: block; position: relative; width: 2rem; height: 1rem; text-indent: -9999px;}
+#header nav li a:after {content: ""; display: block; position: absolute; top: 0.45rem; right: 0; width: 40%; height: 0.1rem; background: var(--sc); border-radius: 0.15rem; transition: 0.3s;}
+#header nav li.on a:after {width: 100%; background: var(--mc)}
+
+#header .cover_btn {position: fixed; top: 3rem; right: 3rem; z-index: 999;}
+#header .cover_btn i {font-size: 1.5rem; padding: 0.5rem; background: var(--lc);}
+
+.container {display: grid; position: relative; grid-template-columns: repeat(2,1fr); gap: 2rem; align-items: center; width: 70rem; margin: 0 auto; z-index: 997;}
+
+
+
+.intro figure {border-radius: 45% 55% 13% 87% / 43% 84% 16% 57%;; overflow: hidden; animation: int_movie 5s infinite;}
+.intro figure:hover {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+.intro .container:after {content: ""; position: absolute; top: 3rem; right: 1rem; display: block; width: 5rem; height: 5rem; background: var(--sc); border-radius: 50%; opacity: 0.7;}
+
+@keyframes int_movie {
+    0% {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+    20% {border-radius: 75% 25% 64% 36% / 24% 33% 67% 76%;}
+    40% {border-radius: 45% 55% 13% 87% / 43% 84% 16% 57%;}
+    60% {border-radius: 27% 73% 13% 87% / 68% 58% 42% 32%;}
+    80% {border-radius: 48% 52% 35% 65% / 55% 75% 25% 45%;}
+    100% {border-radius: 54% 46% 64% 36% / 42% 62% 38% 58%;}
+}
+
+.intro figure img {width: 100%;}
+.intro .slogan h2 {font-size: 3rem; font-weight: 700; margin-bottom: 1rem;}
+.intro .slogan p {font-size: 0.75rem; font-weight: 300; margin-bottom: 1rem;}
+.intro .slogan strong {display: block; font-size: 1rem; font-weight: 500;}
+
+.intro .wheel {position: absolute; bottom: 3rem; left: 50%; transform: translateX(-50%); width: 1.7rem; height: 2.8rem; border: 2px solid var(--dc); font-size: 0; border-radius: 0.8rem; opacity: 0.5;}
+.intro .wheel span {position: absolute; top: 0.3rem; left: 50%; transform: translateX(-50%); width: 0.1rem; height: 0.5rem; background: var(--dc); border-radius: 0.1rem; animation: wheel 0.7s infinite;}
+
+@keyframes wheel {
+    to {top:0.6rem}
+}
+
+
+.section {background: url(./lib/base/pf_bg_pattern02.png);}
+.section {max-width: 100%;}
+.section .mockup {background: url(./lib/base/mockup01.png) no-repeat center top/100%; padding: 15.5% 19% 20% 19%}
+.section .mockup figure {position: relative; padding-bottom: 56.25%; overflow: hidden;}
+.section .mockup figure img {position: absolute; top:0 ; left: 0; width: 100%; transition: 10s;}
+.section .mockup figure:hover img {transform: translateY(-100%);top:100%}
+
+.section .description h3 {font-size: 2.5rem; font-weight: 200; margin-bottom: 1rem;}
+.section .description p {font-size: 0.75rem; font-weight: 300; margin-bottom: 2rem;}
+
+.section .description dl {display: inline-flex; line-height: 1.5rem; border-bottom: 1px solid var(--gc);}
+.section .description dl dt {width: 6rem;}
+.section .description dl dt::before {content: "＃"; margin-right: 1rem;}
+.section .description dl:last-of-type {margin-bottom: 2rem;}
+
+
+.section .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
+.section .description dd strong {vertical-align:middle;margin-right:1rem;}
+.portfolio_01 .description dd span:nth-last-of-type(1) {background: #333333;}
+.portfolio_01 .description dd span:nth-last-of-type(2) {background: #666666;}
+.portfolio_01 .description dd span:nth-last-of-type(3) {background: #999999;}
+.portfolio_02 .description dd span:nth-last-of-type(1) {background: #333333;}
+.portfolio_02 .description dd span:nth-last-of-type(2) {background: #666666;}
+.portfolio_02 .description dd span:nth-last-of-type(3) {background: #999999;}
+.portfolio_03 .description dd span:nth-last-of-type(1) {background: #333333;}
+.portfolio_03 .description dd span:nth-last-of-type(2) {background: #666666;}
+.portfolio_03 .description dd span:nth-last-of-type(3) {background: #999999;}
+.portfolio_04 .description dd span:nth-last-of-type(1) {background: #333333;}
+.portfolio_04 .description dd span:nth-last-of-type(2) {background: #666666;}
+.portfolio_04 .description dd span:nth-last-of-type(3) {background: #999999;}
+.portfolio_05 .description dd span:nth-last-of-type(1) {background: #333333;}
+.portfolio_05 .description dd span:nth-last-of-type(2) {background: #666666;}
+.portfolio_05 .description dd span:nth-last-of-type(3) {background: #999999;}
+
+.section .description ul {display: flex; gap: 0.5rem}
+.section .description ul a {display: block; background: var(--mc); color: var(--lc); line-height: 3rem; padding: 0 2rem; }
+
+.portfolio_04 .filter {position: absolute; top: 0; left: 0; width: 100%; height: 100vh;}
+.portfolio_04 .filter {overflow: hidden; filter: url('#bbq');}
+.portfolio_04 .filter:before {content: ""; display: block; width: 40rem; height: 40rem; background: var(--sc); border-radius: 50%; position: absolute; top: 20%; left: 0;}
+.portfolio_04 .filter:after {content: ""; display: block; width: 10rem; height: 10rem; background: var(--sc); border-radius: 50%; position: absolute; top: 50%; left: 25%; animation: circle_move 5s infinite;}
+
+@keyframes circle_move {
+    0% {top: 50%; left: 25%; opacity: 1;}
+    40% {top: 50%; left: 30%; opacity: 1;}
+    100% {top: 0; left: 50%; opacity: 0; transform: scale(0.6);}
+}
+
+
+.spec {font-size: 1.25rem;}
+.spec i {padding: 0.25rem; background: var(--dc); color: var(--lc); margin: 0 0.25rem; border-radius: 50%;}
+
+.info .inner {width: 20rem; height: 20rem; position: relative; padding: 1rem; border-radius: 50%; border: 1px solid rgba(0, 0, 0, 0.1);}
+.info .inner strong {display: block; width: 18rem; height: 18rem; border-radius: 50%; overflow: hidden;}
+.info .inner span {position: absolute; top: 0; left: calc(50% - 0.5rem); width: 1rem; height: 10rem; font-size: 0; animation: circle 10s infinite linear; transform-origin: bottom;}
+.info .inner span:after {content:""; display: block; width: 1rem; height: 1rem; background: var(--mc); border-radius: 50%; margin-top: -0.5rem;}
+
+@keyframes circle {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(1turn);}
+}
+
+#footer .totop {position: fixed; bottom: 3rem; right: 3rem; z-index: 999;}
+#footer .totop i {font-size: 1.5rem; padding: 0.5rem; background: var(--lc);}
+#footer address {position: fixed; bottom: 3rem; left: 3rem; z-index: 999;}
+
+#cover {display: none; position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.8); width: 100%; height: 100vh;z-index: 998;}
+#cover ul {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444; font-size: 1rem; font-weight: 300; line-height: 1.5; text-align: center; background: #fff; padding: 5rem; border-radius: 50%;}
