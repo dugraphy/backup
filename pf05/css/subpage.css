@@ -36,7 +36,7 @@ body {font-size: 0.8rem;}
 .subpage .container aside h2 {margin-bottom: 20px; border-bottom: 1px solid #89a130; font-size: 20px; line-height: 2;}
 .subpage .container aside ul>li {border:1px solid #ddd; margin-bottom: 4px; border-radius: 5px;}
 .subpage .container aside ul>li>a {display: block; padding: 10px 15px;}
-.subpage .container aside ul>li:hover {background: #369; color: #fff}
+.subpage .container aside ul>li:hover {background: #89a130; color: #fff}
 
 .subpage .container article {width: 850px; padding: 0 15px 0 50px; border-left:  1px solid #ddd; text-align: center;}
 .subpage .container article h3 {font-size: 1.2rem; font-weight: 500; line-height: 1.5; margin-bottom: 2rem;}
