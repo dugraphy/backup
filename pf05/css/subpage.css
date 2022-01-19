@@ -33,7 +33,7 @@ body {font-size: 0.8rem;}
 
 .subpage .container {display: flex; width: 1200px; margin: 0 auto; padding: 5rem 0;}
 .subpage .container aside {width: 350px; padding: 0 50px 0 15px;}
-.subpage .container aside h2 {margin-bottom: 20px; border-bottom: 1px solid #369; font-size: 20px; line-height: 2;}
+.subpage .container aside h2 {margin-bottom: 20px; border-bottom: 1px solid #89a130; font-size: 20px; line-height: 2;}
 .subpage .container aside ul>li {border:1px solid #ddd; margin-bottom: 4px; border-radius: 5px;}
 .subpage .container aside ul>li>a {display: block; padding: 10px 15px;}
 .subpage .container aside ul>li:hover {background: #369; color: #fff}
@@ -48,7 +48,7 @@ body {font-size: 0.8rem;}
 .business_tab .tab_menu {display: flex;}
 .business_tab .tab_menu>li {flex: 1; text-align: center; font-size: 1rem;line-height: 40px; background: #ddd;}
 .business_tab .tab_menu>li~li {border-left: 1px solid #ccc;}
-.business_tab .tab_menu>li.on {background: chocolate; color: #fff;}
+.business_tab .tab_menu>li.on {background: #715F5C; color: #fff;}
 .business_tab .tab_content {text-align: left; position: relative; height: 38rem}
 .business_tab .tab_content>div {opacity: 0; visibility: hidden;position: absolute; top:0; left:0; padding: 2rem 0;}
 .business_tab .tab_content>div.on {opacity: 1; width: 100%; height: 100%; visibility: visible;}
