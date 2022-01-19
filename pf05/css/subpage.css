@@ -59,7 +59,7 @@ body {font-size: 0.8rem;}
 .business_tab .tab_content .mission>li:before {content: ""; display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #ddd; vertical-align: middle; margin-right: 0.75rem;}
 .business_tab .tab_content figure {text-align: right; margin-top: 6rem}
 
-.business_tab .tab_content .three_direction dl>dt{font-size: 0.75rem; font-weight: 700; margin: 2rem 0 1rem 0;}
+.business_tab .tab_content .three_direction dl>dt{font-size: 0.75rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #89a130}
 .business_tab .tab_content .three_direction dl>dd{font-size: 0.9rem; font-weight: 300; margin-bottom: 1rem; line-height: 1.5;}
 
 .business_tab .tab_content .principles li {font-size: 0.9rem; font-weight: 300; margin-bottom: 1rem;}
