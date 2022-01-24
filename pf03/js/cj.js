@@ -79,16 +79,18 @@ $('.mobile_open').on('click', function(){
 });
 
 
-$(".gnb").on("scroll touchmove mousewheel", function(e){
-  e.preventDefault();
+$('html, body').css({'overflow': 'hidden', 'height': '100%'});
+$('.gnb').on('scroll touchmove mousewheel', function(event) {
+  event.preventDefault();
+  event.stopPropagation();
   return false;
-
 });
 
-$(".depth01").on("scroll touchmove mousewheel", function(e){
-  e.stopPropagation();
+$('html, body').css({'overflow': 'auto', 'height': '100%'});
+$('.gnb').off('scroll touchmove mousewheel');
 
-});
+
+
 
 
 $(window).on('resize', function(){
@@ -132,7 +134,7 @@ $('.logo_slider').slick({
     {
       breakpoint: 769,
       settings: {
-        slidesToShow: 6,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false

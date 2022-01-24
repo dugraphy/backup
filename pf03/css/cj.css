@@ -109,10 +109,8 @@ body {font-size: 0.8rem;}
 .introduce .descriptiont a:hover {color:#ff9700; transition: 0.4s;}
 .introduce .descriptiont a i {font-size: 1rem; padding: 5px; background: #aaa096; vertical-align: middle; margin-left: 10px;}
 
-
-.brands_logo {padding:7.5rem 0 0 0; text-align: center;}
-.brands_logo h3 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1rem; letter-spacing: 0.25rem;}
-.brands_logo .logo_slider {background: #888;background: url(../img/bg_img01.jpg) no-repeat center center/cover;background-attachment: fixed}
+.brands_logo .logo_slider {background: #888;background: url(../img/bg_img01.jpg) no-repeat center center/cover;background-attachment: fixed; position: relative;}
+.brands_logo .logo_slider::before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9);}
 
 
 .footer {padding: 1.5rem 0;background: #666; color: #ddd}
@@ -161,7 +159,7 @@ body {font-size: 0.8rem;}
     
     
     #warp {min-width: auto;}
-    .header {line-height: 5rem; position: fixed; top: 0; left: 0;background: #fff; z-index: 996; border-bottom: 1px solid #ccc;}
+    .header {line-height: 5rem; width: 100vw; position: fixed; top: 0; left: 0;background: #fff; z-index: 996; border-bottom: 1px solid #ccc;}
     .header h1 {background: #fff; position: relative; z-index: 996;}
     .header img {width: 10rem;}
     .header .container {justify-content: space-between;}
@@ -265,12 +263,9 @@ body {font-size: 0.8rem;}
     .introduce .sec02 .descriptiont {order: 1;}
 
 
-
-
-    .brands_logo {padding:3.75rem 0 0 0; text-align: center;}
-    .brands_logo h3 {font-size: 1rem; font-weight: 100; margin-bottom: 1rem; letter-spacing: 0.25rem;}
-    .brands_logo .logo_slider {background: url(../img/bg_img01.jpg) no-repeat center center/cover; background-attachment: fixed}
-
+    .brands_logo .logo_slider {background: url(../img/bg_img01.jpg) no-repeat center center/cover; background-attachment: fixed; position: relative;}
+    .brands_logo .logo_slider::before {content: ""; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);}
+    
     .footer {padding: 1.5rem 0;background: #666; color: #ddd}
     .footer .top_footer {display: flex; flex-direction: column;}
     .footer .top_footer .container {display: flex; flex-direction: column; justify-content: space-between; margin: 0;}
