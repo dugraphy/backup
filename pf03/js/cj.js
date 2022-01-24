@@ -1,6 +1,8 @@
 $(function(){
 //----------------------
 
+
+
 //-------메인슬라이더 바
 
 var mS=$(".visual_slider").slick({
@@ -52,11 +54,6 @@ contentSlider01.on("afterChange", function(event,slick,current){
 
 
 
-//-------- 어바웃 AOS 이벤트
-
-
-
-AOS.init();
 
   
 
@@ -80,14 +77,14 @@ $('.mobile_open').on('click', function(){
 
 
 $('html, body').css({'overflow': 'hidden', 'height': '100%'});
-$('.gnb').on('scroll touchmove mousewheel', function(event) {
-  event.preventDefault();
-  event.stopPropagation();
+$('.mobile_open').on('scroll touchmove mousewheel', function(e) {
+  e.preventDefault();
+  e.stopPropagation();
   return false;
 });
 
 $('html, body').css({'overflow': 'auto', 'height': '100%'});
-$('.gnb').off('scroll touchmove mousewheel');
+$('.mobile_open').off('scroll touchmove mousewheel');
 
 
 
@@ -142,12 +139,6 @@ $('.logo_slider').slick({
     },
   ]
 });
-
-
-
-
-
-
 
 
 
