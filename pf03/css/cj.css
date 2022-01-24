@@ -102,7 +102,7 @@ body {font-size: 0.8rem;}
 .introduce .pic {width: 100%;}
 .introduce img {width: 100%;}
 .introduce .descriptiont {display: flex; width: 50%; text-align: center; background: #aaa096}
-.introduce .descriptiont .con {margin: auto; padding: 0 1.5rem;}
+.introduce .descriptiont .con {margin: auto; padding: 0 1.5rem; width: 100%;}
 .introduce .descriptiont h3 {font-size: 1.5rem; font-weight: 100; margin-bottom: 1rem; letter-spacing: -0.025rem; color:#fff}
 .introduce .descriptiont h3:after {content: ""; display: block; width: 1px; height: 2rem; background: #fff; margin: 1rem auto;}
 .introduce .descriptiont p {font-size: 0.9rem; font-weight: 400; letter-spacing: -0.025em;margin-bottom: 20px; line-height: 1.2rem; color:#fff;}
@@ -255,7 +255,7 @@ body {font-size: 0.8rem;}
     .introduce .pic:first-child {width: 100%;}
     .introduce .pic {width: 100%;}
     .introduce .descriptiont {display: flex; width: 100%; text-align: center; background: #aaa096}
-    .introduce .descriptiont .con {margin: auto; padding: 1.5rem 0.75rem;}
+    .introduce .descriptiont .con {margin: auto; padding: 1.5rem 0.75rem; width: 100%;}
     .introduce .descriptiont h3 {font-size: 1rem; font-weight: 100; margin-bottom: 1rem; letter-spacing: -0.025rem; color:#fff}
     .introduce .descriptiont h3:after {content: ""; display: block; width: 5rem; height: 1px; background: #fff; margin: 1rem auto;}
     .introduce .descriptiont p {font-size: 0.75rem; font-weight: 300; letter-spacing: -0.05em; margin-bottom: 1rem; line-height: 24px; color:#fff;}
