@@ -62,7 +62,7 @@ contentSlider01.on("afterChange", function(event,slick,current){
 
 //----------- 모바일 다단메뉴
 
-$('.mobile_open').on('click', function(){
+$('.xi-bars').on('click', function(){
   $(this).toggleClass('on');
   $('.gnb').toggleClass('on');
  });
@@ -77,14 +77,14 @@ $('.mobile_open').on('click', function(){
 
 
 $('html, body').css({'overflow': 'hidden', 'height': '100%'});
-$('.mobile_open').on('scroll touchmove mousewheel', function(e) {
+$('.xi-bars').on('scroll touchmove mousewheel', function(e) {
   e.preventDefault();
   e.stopPropagation();
   return false;
 });
 
 $('html, body').css({'overflow': 'auto', 'height': '100%'});
-$('.mobile_open').off('scroll touchmove mousewheel');
+$('.xi-bars').off('scroll touchmove mousewheel');
 
 
 
@@ -140,8 +140,28 @@ $('.logo_slider').slick({
   ]
 });
 
+/* 화살표 함수 */
+const label = document.querySelector('.label');
+const options = document.querySelectorAll('.group');
 
+// 클릭한 옵션의 텍스트를 라벨 안에 넣음
+const handleSelect = (item) => {
+  label.parentNode.classList.remove('active');
+  label.innerHTML = item.textContent;
+}
+// 옵션 클릭시 클릭한 옵션을 넘김
+options.forEach(option => {
+	option.addEventListener('click', () => handleSelect(option))
+})
 
+// 라벨을 클릭시 옵션 목록이 열림/닫힘
+label.addEventListener('click', () => {
+  if(label.parentNode.classList.contains('active')) {
+  	label.parentNode.classList.remove('active');
+  } else {
+  	label.parentNode.classList.add('active');
+  }
+});
 
 
 
