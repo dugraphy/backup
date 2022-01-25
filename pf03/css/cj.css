@@ -127,13 +127,14 @@ body {font-size: 0.8rem;}
 .footer .top_footer .left ul>li>a {font-size: 0.8rem;}
 
 
-.footer .top_footer .container select {outline: none; width: 7.5rem; padding: 0.3em 0.5em; font-size: 0.7rem; font-family: 'Noto Sans KR', sans-serif; color: #333}
-.footer .top_footer .container .right .family_site {text-align: center;} */
+.footer .top_footer .container select {outline: none; width: 7.5rem; padding: 0.3em 0.5em; font-size: 0.7rem; font-family: 'Noto Sans KR', sans-serif; color: #333; float: right;}
+.footer .top_footer .container .right .family_site {text-align: center;}
+
 .footer .top_footer .container .sns {text-align: center; margin: 0.75rem 0;}  
-.footer .top_footer .container .sns a {margin-right:0.5rem;}
-.footer .top_footer .container .sns a i {display: inline-block;font-size: 1rem; background: #666; border-radius: 50%;box-shadow: 7px 9px 7px -5px grey; margin: 0.5rem}  
+.footer .top_footer .container .sns a i {display: inline-block; font-size: 1.5rem; margin: 0.5rem}  
+
 .footer .bottom_footer .container {display: block;}
-.footer .bottom_footer:before {content:""; display:inline-block; width:100% ;height: 1px; background: #333}
+.footer .bottom_footer:before {content:""; display:inline-block; width:100% ;height: 1px; background: #aaa}
 .footer .bottom_footer .business {display: flex; justify-content: space-between; padding: 0.75rem;}
 .footer .bottom_footer .business .company {display: block; line-height: 2rem;}
 .footer .bottom_footer .business .company strong {font-size: 0.7rem; color: #ddd}
@@ -144,7 +145,7 @@ body {font-size: 0.8rem;}
 .footer .bottom_footer .business .logo {width: 7.5rem; margin: auto 0;}
 .footer .bottom_footer .business .logo img {width: 100%;}
 
-.footer .bottom_footer address {font-size: 0.6rem; line-height: 1rem; text-align: left; color: #888}
+.footer .bottom_footer address {font-size: 0.6rem; line-height: 1rem; text-align: left; color: #aaa}
 
 /* 모바일 width 768px*/
 
@@ -280,13 +281,17 @@ body {font-size: 0.8rem;}
     .footer .top_footer .container ul>li~li::before {content:""; display:inline-block; margin:0 0.5rem; width:1px ;height: 0.5rem; background: #ddd;} 
     .footer .top_footer .container ul>li>a {font-size: 0.8rem;}
     .footer .top_footer .container .right {display: flex; justify-content: space-between; align-items: baseline; margin-top: 1rem;}
-    .footer .top_footer .container select {outline: none; width: 6rem; padding: 0.3rem 0; font-size: 0.5rem; font-family: 'Noto Sans KR', sans-serif; color: #333;}
-    .footer .top_footer .container .right .family_site {text-align: center;} */
-    .footer .top_footer .container .sns {text-align: center; margin: 0 0;}  
-    .footer .top_footer .container .sns a {margin: 0 0 0 0.5rem;}
-    .footer .top_footer .container .sns a i {display: inline-block;font-size: 1rem; background: #666; border-radius: 50%;box-shadow: 7px 9px 7px -5px grey}  
+
+    .footer .top_footer .container select {outline: none; width: 6rem; padding: 0.3rem 0; font-size: 0.5rem; font-family: 'Noto Sans KR', sans-serif; color: #333; float: none}
+    .footer .top_footer .container .right .family_site {text-align: center;}
+
+    .footer .top_footer .container .sns {text-align: center; margin: 0}  
+    .footer .top_footer .container .sns a i {display: inline-block; font-size: 1.5rem; margin: 0 0 0 0.75rem}  
+
+
+
     .footer .bottom_footer .container {display: block;}
-    .footer .bottom_footer::before {content:""; display:inline-block; width:100% ;height: 1px; background: #333}
+    .footer .bottom_footer::before {content:""; display:inline-block; width:100% ;height: 1px; background: #aaa}
     .footer .bottom_footer .business {display: flex; justify-content: space-between; padding: 0.75rem;}
     .footer .bottom_footer .business .company {display: flex; flex-direction: column; line-height: 1rem;}
     .footer .bottom_footer .business .company strong {font-size: 2vw;}
@@ -297,7 +302,7 @@ body {font-size: 0.8rem;}
     .footer .bottom_footer .business .logo {width: 7.5rem; margin: auto 0;}
     .footer .bottom_footer .business .logo img {width: 100%;}
 
-    .footer .bottom_footer address {font-size: 0.6rem; line-height: 1rem; text-align: center; color: #888}
+    .footer .bottom_footer address {font-size: 0.6rem; line-height: 1rem; text-align: center; color: #aaa}
 }
 
 
