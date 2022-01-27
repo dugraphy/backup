@@ -1,21 +1,58 @@
 $(function(){
     $(window).on('scroll', function(){
         var sct=$(window).scrollTop();
-        console.log(sct);
+        // console.log(sct);
         if(sct>0) {
             $('#header').addClass('on');
         }else{
             $('#header').removeClass('on')
         };
-
     });
+
+    
+
+    $('.mopen').on('click', function(){
+        $('.gnb').toggleClass('on');
+      });
+
+
+
+
+
+      var Rsd = $('#section01>.container');
+
+      var slickOptions = {
+         infinite: true,
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         autoplay:true,
+         autoplaySpeed:2000,
+         centerMode:true,
+         dots:false,
+         arrows:false
+      };
+      
+      $(window).on('load resize', function() {
+         if($(window).width() > 768) {
+            Rsd.slick('unslick');
+         }else{
+            Rsd.not('.slick-initialized').slick(slickOptions);
+         }
+      });
+
+
+      $('.element figure').on('click', function(){
+        $('.element').toggleClass('on');
+      });
+      
+
+
     
       $(".sub_slide").slick({
           arrows:false,
           pauseOnHover:false,
           infinite: true,
           slidesToShow: 1,
-
 
      });
 
