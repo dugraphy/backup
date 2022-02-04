@@ -322,7 +322,7 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 
 /* 카카오 팝업 시작 --{ */
-.kakao_popup {width: 20rem; height: 25rem; background: var(--bc); position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); box-shadow: 1px 1px 10px var(--gc); display: none;}
+.kakao_popup {display: none; width: 22rem; height: 25rem; background: var(--bc); position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); box-shadow: 1px 1px 10px var(--gc);z-index: 997;}
 .kakao_popup figure {width: 10rem; height: 10rem; position: relative; top: 5rem; left: 50%; transform: translateX(-50%);}
 .kakao_popup figure img {width: 100%;}
 .kakao_popup i {font-size: 1rem; position: absolute; top: 1.5rem; right: 1.5rem; transition: 0.6s; cursor: pointer;}
@@ -654,15 +654,15 @@ body {font-size: 0.8rem; color: var(--tc);}
     .profile .right dd::before {display: none; content: "#"; margin-right: 0.75rem;}
     /* --} 프로필 끝 */
     
-    .kakao {width: 85%; height: 20rem;}
-    .kakao figure {width: 5rem; height: 5rem; position: relative; top: 3.5rem;}
-    .kakao i {font-size: 1rem; top: 1rem; right: 1rem;}
-    .kakao ul {width: 7.5rem; height: 8rem; left: 5.1rem;}
-    .kakao li:nth-child(1) {color:#333; left: 1.2rem;}
-    .kakao li:nth-child(3) {position: absolute; left: -1rem;}
-    .kakao li:nth-child(2) {font-size: 0.7rem; position: absolute; right: -0.7rem}
-    .kakao li:nth-child(4) {font-size: 0.7rem; left: 3.5rem;}
-    .kakao li:nth-child(5) {position: relative; top: 70px; left: 0; width: 5rem; font-size: 0.6rem; color: #999;}
+    .kakao_popup {width: 85%; height: 20rem;}
+    .kakao_popup figure {width: 5rem; height: 5rem; position: relative; top: 3.5rem;}
+    .kakao_popup i {font-size: 1rem; top: 1rem; right: 1rem;}
+    .kakao_popup ul {width: 7.5rem; height: 8rem; left: 5.1rem;}
+    .kakao_popup li:nth-child(1) {color:#333; left: 1.2rem;}
+    .kakao_popup li:nth-child(3) {position: absolute; left: -1rem;}
+    .kakao_popup li:nth-child(2) {font-size: 0.7rem; position: absolute; right: -0.7rem}
+    .kakao_popup li:nth-child(4) {font-size: 0.7rem; left: 3.5rem;}
+    .kakao_popup li:nth-child(5) {position: relative; top: 70px; left: 0; width: 5rem; font-size: 0.6rem; color: #999;}
 
 
     .fp-bottom {text-align: center;}
