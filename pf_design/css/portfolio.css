@@ -397,7 +397,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 설명 시작 --{ */ 
     .pf01 .right .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem 0;}
-    .pf01 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem;}
+    .pf01 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem; width: 5rem;}
     .pf01 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf01 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf01 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
@@ -421,7 +421,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 설명 시작 --{ */ 
     .pf02 .left .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem 0;}
-    .pf02 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem;}
+    .pf02 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem; width: 5rem;}
     .pf02 .left .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf02 .left .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf02 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
@@ -475,7 +475,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 설명 시작 --{ */ 
     .pf03 .right .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem 0;}
-    .pf03 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem;}
+    .pf03 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem; width: 5rem;}
     .pf03 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf03 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf03 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
@@ -498,8 +498,8 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf04 .container .right {flex:none; position: relative; order: -1}
     
     /* 포트폴리오 설명 시작 --{ */ 
-    .pf04 .left .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem;}
-    .pf04 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem;}
+    .pf04 .left .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem 0;}
+    .pf04 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem; width: 5rem;}
     .pf04 .left .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf04 .left .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf04 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
@@ -553,7 +553,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 설명 시작 --{ */ 
     .pf05 .right .description h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin: 1rem 0;}
-    .pf05 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem;}
+    .pf05 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--mc); margin-left: 1rem; width: 5rem;}
     .pf05 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf05 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf05 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
