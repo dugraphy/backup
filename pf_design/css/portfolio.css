@@ -50,7 +50,14 @@ body {font-size: 0.8rem; color: var(--tc);}
 /* 컨테이너 틀 시작 --{ */ 
 .container {display: block; position: relative; align-items: center; width: 70rem; margin: 0 auto; z-index: 997;}
 /* --} 컨테이너 틀 끝 */ 
+
+/* 공통 배경이미지 시작 --{ */ 
 .section {background: url(../img/bg02.png)}
+/* --} 공통 배경이미지 끝 */ 
+
+/* 슬라이드 하단 네비 시작 --{ */
+.fp-slidesNav.fp-bottom{bottom:2rem}
+/* --} 슬라이드 하단 네비 끝 */
 
 /* 커버 시작 --{ */ 
 .intro .slogan {text-align: center;}
@@ -363,8 +370,15 @@ body {font-size: 0.8rem; color: var(--tc);}
     /* 컨테이너 틀 시작 --{ */ 
     .container {display: block; align-items: center; width: auto; margin: 0 auto; z-index: 997;}
     /* --} 컨테이너 틀 끝 */ 
-    .section {background: url(../img/bg02.png);}
+    
+    /* 공통 배경이미지 시작 --{ */ 
+    .section {background: url(../img/bg02.png)}
+    /* --} 공통 배경이미지 끝 */ 
 
+    /* 슬라이드 하단 네비 시작 --{ */
+    .fp-slidesNav.fp-bottom {bottom:5rem}
+    /* --} 슬라이드 하단 네비 끝 */
+    
     /* 커버 시작 --{ */ 
     .intro .slogan {text-align: center; margin: 0 2rem;}
     .intro .slogan h2 {font-size: 1.2rem; font-weight: 700; margin-bottom: 1.5rem; width: 100%}
@@ -375,7 +389,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 01 시작 --{ */ 
     .pf01 {text-align: left;}
-    .pf01 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1.5rem 0.75rem;}
+    .pf01 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1rem 0.75rem;}
     .pf01 .container {display: flex; flex-direction: column; justify-content: center; margin: 0 0.75rem;}
     .pf01 .container .left {flex:none; position: relative; right: 0}
     .pf01 .container .right {flex:none; text-align: left;}
@@ -414,7 +428,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 02 시작 --{ */ 
     .pf02 {text-align: left;}
-    .pf02 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1.5rem 0.75rem;}
+    .pf02 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1rem 0.75rem;}
     .pf02 .container {display: flex; flex-direction: column; justify-content: center; margin: 0 0.75rem;}
     .pf02 .container .left {flex:none; text-align: left;}
     .pf02 .container .right {flex:none; position: relative; order: -1}
@@ -453,7 +467,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 03 시작 --{ */ 
     .pf03 {text-align: left;}
-    .pf03 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1.5rem 0.75rem;}
+    .pf03 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1rem 0.75rem;}
     .pf03 .container {display: flex; flex-direction: column; justify-content: center; margin: 0 0.75rem;}
     .pf03 .container .left {flex:none; position: relative; right: 0}
     .pf03 .container .right {flex:none; text-align: left;}
@@ -492,7 +506,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 04 시작 --{ */ 
     .pf04 {text-align: left;}
-    .pf04 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1.5rem 0.75rem;}
+    .pf04 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1rem 0.75rem;}
     .pf04 .container {display: flex; flex-direction: column; justify-content: center; margin: 0 0.75rem;}
     .pf04 .container .left {flex:none; text-align: left;}
     .pf04 .container .right {flex:none; position: relative; order: -1}
@@ -531,7 +545,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* 포트폴리오 05 시작 --{ */ 
     .pf05 {text-align: left;}
-    .pf05 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1.5rem 0.75rem;}
+    .pf05 h3 {font-size: 1rem; font-weight: 700; color: var(--tc); margin: 0 0.75rem 1rem 0.75rem;}
     .pf05 .container {display: flex; flex-direction: column; justify-content: center; margin: 0 0.75rem;}
     .pf05 .container .left {flex:none; position: relative; right: 0}
     .pf05 .container .right {flex:none; text-align: left;}
