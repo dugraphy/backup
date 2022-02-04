@@ -382,7 +382,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* pc 목업 시작 --{ */ 
     .pf01 .left .pc_mockup {background: none; padding: 0;}
-    .pf01 .left .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 15rem; padding-bottom: 0; overflow:hidden;}
+    .pf01 .left .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 10rem; padding-bottom: 0; overflow:hidden;}
     .pf01 .left .pc_mockup figure img {position: static; top:100% ; left: 0; width: 100%; transition: none;}
     .pf01 .left .pc_mockup figure:hover img {display: block; transform: translateY(0); top:100%}
     /* --} pc 목업 끝*/ 
