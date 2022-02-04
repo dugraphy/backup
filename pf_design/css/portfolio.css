@@ -402,7 +402,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf01 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf01 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
     .pf01 .right .description dl dt:before {content: ""; margin-right: 0}
-    .pf01 .right .description dl:last-of-type {margin-bottom: 2rem;}
+    .pf01 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf01 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
     .pf01 .right .description dd strong {margin-right:0.75rem;}
     .pf01 .description dd span:nth-of-type(1) {background: #ED1846; vertical-align: baseline;}
@@ -426,7 +426,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf02 .left .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf02 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
     .pf02 .left .description dl dt:before {content: ""; margin-right: 0}
-    .pf02 .left .description dl:last-of-type {margin-bottom: 2rem;}
+    .pf02 .left .description dl:last-of-type {margin-bottom: 1rem;}
     .pf02 .left .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
     .pf02 .left .description dd strong {margin-right:0.75rem;}
     .pf02 .description dd span:nth-of-type(1) {background: #EF151E; vertical-align: baseline;}
@@ -436,7 +436,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* pc 목업 시작 --{ */ 
     .pf02 .right .pc_mockup {background: none; padding: 0;}
-    .pf02 .right .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 15rem; padding-bottom: 0; overflow:hidden;}
+    .pf02 .right .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 10rem; padding-bottom: 0; overflow:hidden;}
     .pf02 .right .pc_mockup figure img {position: static; top:100% ; left: 0; width: 100%; transition: none;}
     .pf02 .right .pc_mockup figure:hover img {display: block; transform: translateY(0); top:100%}
     /* --} pc 목업 끝*/ 
@@ -460,7 +460,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* pc 목업 시작 --{ */ 
     .pf03 .left .pc_mockup {background: none; padding: 0;}
-    .pf03 .left .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 15rem; padding-bottom: 0; overflow:hidden;}
+    .pf03 .left .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 10rem; padding-bottom: 0; overflow:hidden;}
     .pf03 .left .pc_mockup figure img {position: static; top:100% ; left: 0; width: 100%; transition: none;}
     .pf03 .left .pc_mockup figure:hover img {display: block; transform: translateY(0); top:100%}
     /* --} pc 목업 끝*/ 
@@ -480,7 +480,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf03 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf03 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
     .pf03 .right .description dl dt:before {content: ""; margin-right: 0}
-    .pf03 .right .description dl:last-of-type {margin-bottom: 2rem;}
+    .pf03 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf03 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
     .pf03 .right .description dd strong {margin-right:0.75rem;}
     .pf03 .description dd span:nth-of-type(1) {background: #5E5048; vertical-align: baseline;}
@@ -504,7 +504,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf04 .left .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf04 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
     .pf04 .left .description dl dt:before {content: ""; margin-right: 0}
-    .pf04 .left .description dl:last-of-type {margin-bottom: 2rem;}
+    .pf04 .left .description dl:last-of-type {margin-bottom: 1rem;}
     .pf04 .left .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
     .pf04 .left .description dd strong {margin-right:0.75rem;}
     .pf04 .description dd span:nth-of-type(1) {background: #FF3478; vertical-align: baseline;}
@@ -514,7 +514,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* pc 목업 시작 --{ */ 
     .pf04 .right .pc_mockup {background: none; padding: 0;}
-    .pf04 .right .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 15rem; padding-bottom: 0; overflow:hidden;}
+    .pf04 .right .pc_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 10rem; padding-bottom: 0; overflow:hidden;}
     .pf04 .right .pc_mockup figure img {position: static; top:100% ; left: 0; width: 100%; transition: none;}
     .pf04 .right .pc_mockup figure:hover img {display: block; transform: translateY(0); top:100%}
     /* --} pc 목업 끝*/ 
@@ -538,7 +538,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     
     /* main_page 목업 시작 --{ */ 
     .pf05 .left .main_mockup {background: none; padding: 0;}
-    .pf05 .left .main_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 15rem; padding-bottom: 0; overflow:hidden;}
+    .pf05 .left .main_mockup figure {position: relative; width: 100%; border: 1px solid var(--gc); height: 10rem; padding-bottom: 0; overflow:hidden;}
     .pf05 .left .main_mockup figure img {position: static; top:100% ; left: 0; width: 100%; transition: none;}
     .pf05 .left .main_mockup figure:hover img {display: block; transform: translateY(0); top:100%}
     /* --} main_page 목업 끝*/ 
@@ -558,7 +558,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf05 .right .description dl {display: inline-flex; line-height: 1.5rem;}
     .pf05 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
     .pf05 .right .description dl dt:before {content: ""; margin-right: 0}
-    .pf05 .right .description dl:last-of-type {margin-bottom: 2rem;}
+    .pf05 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf05 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
     .pf05 .right .description dd strong {margin-right:0.75rem;}
     .pf05 .description dd span:nth-of-type(1) {background: #ED1846; vertical-align: baseline;}
