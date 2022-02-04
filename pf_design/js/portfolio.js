@@ -100,7 +100,7 @@ $(function () {
 //--- pf03 슬라이더 동작 시작
 $(".class .slider").slick({
     slidesToShow:3,
-    autoplay:false,
+    autoplay:true,
     dots:true,
     prevArrow:"<div class='prev'></div>",
     nextArrow:"<div class='next'></div>",
