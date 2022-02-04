@@ -652,10 +652,19 @@ body {font-size: 0.8rem; color: var(--tc);}
     .profile .right dt {display: block; font-size: 1rem; font-weight: 300; margin: 0.75rem 0 0.375rem 0; color: var(--tc);}
     .profile .right dd {display: block; font-size: 0.7rem;font-weight: 400; margin-bottom: 0.375rem;}
     .profile .right dd::before {display: none; content: "#"; margin-right: 0.75rem;}
-
-
     /* --} 프로필 끝 */
     
+    .kakao {width: 85%; height: 20rem;}
+    .kakao figure {width: 5rem; height: 5rem; position: relative; top: 3.5rem;}
+    .kakao i {font-size: 1rem; top: 1rem; right: 1rem;}
+    .kakao ul {width: 7.5rem; height: 8rem; left: 5.1rem;}
+    .kakao li:nth-child(1) {color:#333; left: 1.2rem;}
+    .kakao li:nth-child(3) {position: absolute; left: -1rem;}
+    .kakao li:nth-child(2) {font-size: 0.7rem; position: absolute; right: -0.7rem}
+    .kakao li:nth-child(4) {font-size: 0.7rem; left: 3.5rem;}
+    .kakao li:nth-child(5) {position: relative; top: 70px; left: 0; width: 5rem; font-size: 0.6rem; color: #999;}
+
+
     .fp-bottom {text-align: center;}
     .fp-slidesNav ul li a span {background: var(--sc);}
     .fp-slidesNav .active span {background: var(--mc);}
