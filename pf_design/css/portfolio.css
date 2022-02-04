@@ -376,7 +376,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     /* --} 공통 배경이미지 끝 */ 
 
     /* 슬라이드 하단 네비 시작 --{ */
-    .fp-slidesNav.fp-bottom {bottom:5rem}
+    .fp-slidesNav.fp-bottom {bottom:2rem}
     /* --} 슬라이드 하단 네비 끝 */
     
     /* 커버 시작 --{ */ 
