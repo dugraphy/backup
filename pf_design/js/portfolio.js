@@ -100,7 +100,7 @@ $(function () {
 //--- pf03 슬라이더 동작 시작
 $(".class .slider").slick({
     slidesToShow:3,
-    autoplay:true,
+    autoplay:false,
     dots:true,
     prevArrow:"<div class='prev'></div>",
     nextArrow:"<div class='next'></div>",
@@ -140,7 +140,18 @@ $('.cover').on('scroll wheel touchmove', function(){
 });
 //-- 다단메뉴 열면 스크롤 못하게 하는 이벤트 끝
 
-
+$(".kakao_btn").click(function(){   
+    $(".kakao_popup").show();  
+});   
+$(".kakao_popup>i").click(function(){   
+    $(".kakao_popup").hide();
+});
+$(".kakao_btn").on("click",function(){
+    fullpage_api.setAllowScrolling(false);
+});
+$(".kakao_popup>i").on("click",function(){
+    fullpage_api.setAllowScrolling(true);
+}); 
 
 //------------------------------------------------
 })
