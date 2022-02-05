@@ -667,7 +667,8 @@ body {font-size: 0.8rem; color: var(--tc);}
     .profile .left .address .kakao span {color: var(--mc)}
     .profile .left .address dl>dd {display: inline-block;}
     .profile .left .address dl>dd span {display: inline-block; margin-bottom: 1rem; width: 4.5rem;}
-    .profile .left .address dl>dd em {display: inline-block; margin-bottom: 1rem; width: 100%;}
+    .profile .left .address dl>dd em {display: inline-block; margin-bottom: 1rem;}
+    .profile .left .address .phone a {width: 100%;}
     .profile .right {display: none;}
     .profile .right>div {display: block; padding: 0.375rem 0;}
     .profile .right dt {display: block; font-size: 1rem; font-weight: 300; margin: 0.75rem 0 0.375rem 0; color: var(--tc);}
