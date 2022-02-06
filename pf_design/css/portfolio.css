@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 
 :root {
@@ -98,10 +99,10 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 /* 포트폴리오 설명 시작 --{ */ 
 .pf01 .right .description h4 {display: inline-block; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.pf01 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem;}
+.pf01 .right .description p {display: inline-block; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 100; color: var(--tc); margin-left: 1rem;}
 .pf01 .right .description em {display: block; font-size: 1rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
 .pf01 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-.pf01 .right .description dl dt {width: 8rem;}
+.pf01 .right .description dl dt {width: 8rem; font-family: 'DM Serif Display', serif;}
 .pf01 .right .description dl dt:before {content: "＃"; margin-right: 1rem;}
 .pf01 .right .description dl:last-of-type {margin-bottom: 2rem;}
 .pf01 .right .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
@@ -122,13 +123,13 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 /* 포트폴리오 설명 시작 --{ */ 
 .pf02 .left .description h4 {display: inline-block; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.pf02 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem;}
+.pf02 .left .description p {display: inline-block; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 100; color: var(--tc); margin-left: 1rem;}
 .pf02 .left .description em {display: block; font-size: 1rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
 .pf02 .left .description dl {display: inline-flex; line-height: 1.5rem;}
-.pf02 .left .description dl dt {width: 8rem;}
+.pf02 .left .description dl dt {width: 8rem; font-family: 'DM Serif Display', serif;}
 .pf02 .left .description dl dt:before {content: "＃"; margin-right: 1rem;}
 .pf02 .left .description dl:last-of-type {margin-bottom: 2rem;}
-.pf02 .left .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
+.pf02 .left .description dd span {display: inline-block; width: 0.6rem; height: 0.6rem; border-radius: 50%; vertical-align: middle;}
 .pf02 .left .description dd strong {margin-right:1rem;}
 .pf02 .description dd span:nth-of-type(1) {background: #EF151E; vertical-align: baseline;}
 .pf02 .description dd span:nth-of-type(2) {background: #AAA096; vertical-align: baseline;}
@@ -176,10 +177,10 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 /* 포트폴리오 설명 시작 --{ */ 
 .pf03 .right .description h4 {display: inline-block; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.pf03 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem;}
+.pf03 .right .description p {display: inline-block; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 100; color: var(--tc); margin-left: 1rem;}
 .pf03 .right .description em {display: block; font-size: 1rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
 .pf03 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-.pf03 .right .description dl dt {width: 8rem;}
+.pf03 .right .description dl dt {width: 8rem; font-family: 'DM Serif Display', serif;}
 .pf03 .right .description dl dt:before {content: "＃"; margin-right: 1rem;}
 .pf03 .right .description dl:last-of-type {margin-bottom: 2rem;}
 .pf03 .right .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
@@ -200,10 +201,10 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 /* 포트폴리오 설명 시작 --{ */ 
 .pf04 .left .description h4 {display: inline-block; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.pf04 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem;}
+.pf04 .left .description p {display: inline-block; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 100; color: var(--tc); margin-left: 1rem;}
 .pf04 .left .description em {display: block; font-size: 1rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
 .pf04 .left .description dl {display: inline-flex; line-height: 1.5rem;}
-.pf04 .left .description dl dt {width: 8rem;}
+.pf04 .left .description dl dt {width: 8rem; font-family: 'DM Serif Display', serif;}
 .pf04 .left .description dl dt:before {content: "＃"; margin-right: 1rem;}
 .pf04 .left .description dl:last-of-type {margin-bottom: 2rem;}
 .pf04 .left .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
@@ -254,10 +255,10 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 /* 포트폴리오 설명 시작 --{ */ 
 .pf05 .right .description h4 {display: inline-block; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.pf05 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem;}
+.pf05 .right .description p {display: inline-block; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 100; color: var(--tc); margin-left: 1rem;}
 .pf05 .right .description em {display: block; font-size: 1rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
 .pf05 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-.pf05 .right .description dl dt {width: 8rem;}
+.pf05 .right .description dl dt {width: 8rem; font-family: 'DM Serif Display', serif;}
 .pf05 .right .description dl dt:before {content: "＃"; margin-right: 1rem;}
 .pf05 .right .description dl:last-of-type {margin-bottom: 2rem;}
 .pf05 .right .description dd span {display:inline-block;width:0.6rem;height:0.6rem;border-radius:50%;vertical-align:middle;}
@@ -295,7 +296,7 @@ body {font-size: 0.8rem; color: var(--tc);}
 .class .class_item .item_box .item_text {padding:20px;background:#fff; text-align:center}
 
 .class .class_item .item_box .item_text h4 {display: inline-block; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--mc);}
-.class .class_item .item_box .item_text p {font-size: 0.9rem; font-weight: 300; color: var(--tc); line-height:2; padding-bottom:15px;}
+.class .class_item .item_box .item_text p {font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 300; color: var(--tc); line-height:2; padding-bottom:15px;}
 
 .class .class_item .item_box .item_text span a {display:block; width: 6.5rem; height: 2rem;color:#333;font-size:0.8rem; line-height: 2rem; padding:0 1rem; text-align:center; border-radius:10px; margin:0 auto; border: 1px solid var(--gc);}
 .class .class_item .item_box .item_text span a:hover {background: var(--mc);}
@@ -318,10 +319,10 @@ body {font-size: 0.8rem; color: var(--tc);}
 .profile .left .address .kakao {cursor: pointer;}
 .profile .left .address .kakao span {color: var(--mc);}
 .profile .left .address dl>dd {display: inline-block;}
-.profile .left .address dl>dd span {display: inline-block; margin-bottom: 0.75rem; width: 5rem; font-size: 0.9rem; font-weight: 300;}
+.profile .left .address dl>dd span {display: inline-block; margin-bottom: 0.75rem; width: 5rem; font-family: 'DM Serif Display', serif; font-size: 0.9rem; font-weight: 300;}
 .profile .left .address dl>dd em {display: inline-block; margin-bottom: 0.75rem; font-size: 1rem; font-weight: 300;}
 .profile .right>div {display: block; padding: 0.75rem 0;}
-.profile .right dt {display: block; font-size: 0.9rem; font-weight: 300; margin-bottom: 0.75rem; color: var(--mc);}
+.profile .right dt {display: block; font-size: 0.9rem; font-weight: 300; margin-bottom: 0.75rem; color: var(--mc);font-family: 'DM Serif Display', serif;}
 .profile .right dd {display: block; font-size: 1rem; font-weight: 300; margin-bottom: 0.75rem;}
 .profile .right dd::before {content: "#"; margin-right: 1rem;}
 /* --} 프로필 끝 */
@@ -350,7 +351,7 @@ body {font-size: 0.8rem; color: var(--tc);}
 
 .cover {display: none; position: fixed; top: 0; left: 0; background: #fff; width: 100%; height: 100vh;z-index: 997;}
 .cover::before {content: ""; display: block; background: url(../img/symbol.png) no-repeat center center/cover; width: 100%; height: 100%; opacity: 0.2;}
-.cover ul {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444; font-size: 1.5rem; font-weight: 300; line-height: 3; text-align: center; padding: 5rem;}
+.cover ul {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444; font-family: 'DM Serif Display', serif; font-size: 1.5rem; font-weight: 300; line-height: 3; text-align: center; padding: 5rem;}
 .cover ul>li:hover {color: var(--mc)}
 
 @media (max-width:768px){
@@ -447,7 +448,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf01 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem; width: 5rem;}
     .pf01 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf01 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-    .pf01 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
+    .pf01 .right .description dl dt {width: 3rem; font-family: 'DM Serif Display', serif; font-size: 0.7rem;}
     .pf01 .right .description dl dt:before {content: ""; margin-right: 0}
     .pf01 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf01 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
@@ -471,7 +472,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf02 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem; width: 5rem;}
     .pf02 .left .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf02 .left .description dl {display: inline-flex; line-height: 1.5rem;}
-    .pf02 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
+    .pf02 .left .description dl dt {width: 3rem; font-family: 'DM Serif Display', serif; font-size: 0.7rem;}
     .pf02 .left .description dl dt:before {content: ""; margin-right: 0}
     .pf02 .left .description dl:last-of-type {margin-bottom: 1rem;}
     .pf02 .left .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
@@ -525,7 +526,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf03 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem; width: 5rem;}
     .pf03 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf03 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-    .pf03 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
+    .pf03 .right .description dl dt {width: 3rem; font-family: 'DM Serif Display', serif; font-size: 0.7rem;}
     .pf03 .right .description dl dt:before {content: ""; margin-right: 0}
     .pf03 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf03 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
@@ -549,7 +550,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf04 .left .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem; width: 5rem;}
     .pf04 .left .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf04 .left .description dl {display: inline-flex; line-height: 1.5rem;}
-    .pf04 .left .description dl dt {width: 3rem; font-size: 0.7rem;}
+    .pf04 .left .description dl dt {width: 3rem; font-family: 'DM Serif Display', serif; font-size: 0.7rem;}
     .pf04 .left .description dl dt:before {content: ""; margin-right: 0}
     .pf04 .left .description dl:last-of-type {margin-bottom: 1rem;}
     .pf04 .left .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
@@ -603,7 +604,7 @@ body {font-size: 0.8rem; color: var(--tc);}
     .pf05 .right .description p {display: inline-block; font-size: 0.9rem; font-weight: 300; color: var(--tc); margin-left: 1rem; width: 5rem;}
     .pf05 .right .description em {display: block; font-size: 0.7rem; font-weight: 300; line-height: 1.5; margin-bottom: 1rem;}
     .pf05 .right .description dl {display: inline-flex; line-height: 1.5rem;}
-    .pf05 .right .description dl dt {width: 3rem; font-size: 0.7rem;}
+    .pf05 .right .description dl dt {width: 3rem; font-family: 'DM Serif Display', serif; font-size: 0.7rem;}
     .pf05 .right .description dl dt:before {content: ""; margin-right: 0}
     .pf05 .right .description dl:last-of-type {margin-bottom: 1rem;}
     .pf05 .right .description dd span {display:inline-block; width:0.6rem; height:0.6rem; border-radius:50%; vertical-align:middle;}
@@ -666,12 +667,12 @@ body {font-size: 0.8rem; color: var(--tc);}
     .profile .left .address .kakao {cursor: pointer;}
     .profile .left .address .kakao span {color: var(--mc)}
     .profile .left .address dl>dd {display: inline-block;}
-    .profile .left .address dl>dd span {display: inline-block; margin-bottom: 1rem; width: 4.5rem;}
+    .profile .left .address dl>dd span {display: inline-block; margin-bottom: 1rem; width: 4.5rem; font-family: 'DM Serif Display', serif;}
     .profile .left .address dl>dd em {display: inline-block; margin-bottom: 1rem;}
     .profile .left .address .phone a {width: 100%;}
     .profile .right {display: none;}
     .profile .right>div {display: block; padding: 0.375rem 0;}
-    .profile .right dt {display: block; font-size: 1rem; font-weight: 300; margin: 0.75rem 0 0.375rem 0; color: var(--tc);}
+    .profile .right dt {display: block; font-size: 1rem; font-weight: 300; margin: 0.75rem 0 0.375rem 0; color: var(--tc); font-family: 'DM Serif Display', serif;}
     .profile .right dd {display: block; font-size: 0.7rem;font-weight: 400; margin-bottom: 0.375rem;}
     .profile .right dd::before {display: none; content: "#"; margin-right: 0.75rem;}
     /* --} 프로필 끝 */
@@ -693,7 +694,7 @@ body {font-size: 0.8rem; color: var(--tc);}
 
     .cover {display: none; position: fixed; top: 0; left: 0; background: #fff; width: 100%; height: 100vh;z-index: 997;}
     .cover::before {content: ""; display: block; background: url(../img/symbol.png) no-repeat center center/cover; width: 100%; height: 100%; opacity: 0.2;}
-    .cover ul {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444; font-size: 1.5rem; font-weight: 300; line-height: 3; text-align: center; padding: 5rem;}
+    .cover ul {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444; font-family: 'DM Serif Display', serif; font-size: 1.5rem; font-weight: 300; line-height: 3; text-align: center; padding: 5rem;}
     .cover ul>li:hover {color: var(--mc)}
 
 
