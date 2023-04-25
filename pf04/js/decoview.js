@@ -27,14 +27,14 @@ $('.gnb>li>a').on('click', function(e){
  });
 
  
-$('html, body').css({'overflow': 'hidden', 'height': '100%'});
+$('body').css({'overflow': 'hidden', 'height': '100%'});
 $('.xi-bars').on('scroll touchmove mousewheel', function(e) {
   e.preventDefault();
   e.stopPropagation();
   return false;
 });
 
-$('html, body').css({'overflow': 'auto', 'height': '100%'});
+$('body').css({'overflow': 'auto', 'height': '100%'});
 $('.xi-bars').off('scroll touchmove mousewheel');   
 
 
